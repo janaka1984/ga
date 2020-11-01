@@ -1,0 +1,6 @@
+[
+  {
+    "level": "ERROR",
+    "message": "ABIs [arm64-v8a, x86_64] are not supported for platform. Supported ABIs are [armeabi-v7a, x86]."
+  }
+]

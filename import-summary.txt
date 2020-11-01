@@ -1,0 +1,113 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* Makefile
+* ant.properties
+* build.xml
+* gaclient\
+* gaclient\.gradle\
+* gaclient\.gradle\6.5\
+* gaclient\.gradle\6.5\executionHistory\
+* gaclient\.gradle\6.5\executionHistory\executionHistory.lock
+* gaclient\.gradle\6.5\fileChanges\
+* gaclient\.gradle\6.5\fileChanges\last-build.bin
+* gaclient\.gradle\6.5\fileContent\
+* gaclient\.gradle\6.5\fileContent\fileContent.lock
+* gaclient\.gradle\6.5\fileHashes\
+* gaclient\.gradle\6.5\fileHashes\fileHashes.bin
+* gaclient\.gradle\6.5\fileHashes\fileHashes.lock
+* gaclient\.gradle\6.5\gc.properties
+* gaclient\.gradle\buildOutputCleanup\
+* gaclient\.gradle\buildOutputCleanup\buildOutputCleanup.lock
+* gaclient\.gradle\buildOutputCleanup\cache.properties
+* gaclient\.gradle\buildOutputCleanup\outputFiles.bin
+* gaclient\.gradle\checksums\
+* gaclient\.gradle\checksums\checksums.lock
+* gaclient\.gradle\checksums\md5-checksums.bin
+* gaclient\.gradle\checksums\sha1-checksums.bin
+* gaclient\.gradle\vcs-1\
+* gaclient\.gradle\vcs-1\gc.properties
+* gaclient\.idea\
+* gaclient\.idea\.gitignore
+* gaclient\.idea\caches\
+* gaclient\.idea\caches\build_file_checksums.ser
+* gaclient\.idea\compiler.xml
+* gaclient\.idea\gradle.xml
+* gaclient\.idea\jarRepositories.xml
+* gaclient\.idea\libraries\
+* gaclient\.idea\libraries\Gradle__junit_junit_4_12.xml
+* gaclient\.idea\libraries\Gradle__org_hamcrest_hamcrest_core_1_3.xml
+* gaclient\.idea\misc.xml
+* gaclient\.idea\modules.xml
+* gaclient\.idea\modules\
+* gaclient\.idea\modules\GAClient\
+* gaclient\.idea\modules\GAClient\gaclient.GAClient.iml
+* gaclient\.idea\modules\gaclient.iml
+* gaclient\.idea\workspace.xml
+* gaclient\GAClient\
+* gaclient\GAClient\GAClient.iml
+* gaclient\GAClient\build.gradle
+* gaclient\GAClient\proguard.cfg
+* gaclient\GAClient\src\
+* gaclient\GAClient\src\androidTest\
+* gaclient\GAClient\src\androidTest\java\
+* gaclient\GAClient\src\androidTest\java\org\
+* gaclient\GAClient\src\androidTest\java\org\gaminganywhere\
+* gaclient\GAClient\src\androidTest\java\org\gaminganywhere\gaclient\
+* gaclient\GAClient\src\androidTest\java\org\gaminganywhere\gaclient\ApplicationTest.java
+* gaclient\GAClient\src\main\
+* gaclient\GAClient\src\main\AndroidManifest.xml
+* gaclient\GAClient\src\main\java
+* gaclient\GAClient\src\main\jni
+* gaclient\GAClient\src\main\res
+* gaclient\GAClient\src\test\
+* gaclient\GAClient\src\test\java\
+* gaclient\GAClient\src\test\java\org\
+* gaclient\GAClient\src\test\java\org\gaminganywhere\
+* gaclient\GAClient\src\test\java\org\gaminganywhere\gaclient\
+* gaclient\GAClient\src\test\java\org\gaminganywhere\gaclient\ExampleUnitTest.java
+* gaclient\build.gradle
+* gaclient\gaclient.iml
+* gaclient\gradle.properties
+* gaclient\gradle\
+* gaclient\gradle\wrapper\
+* gaclient\gradle\wrapper\gradle-wrapper.jar
+* gaclient\gradle\wrapper\gradle-wrapper.properties
+* gaclient\gradlew
+* gaclient\gradlew.bat
+* gaclient\local.properties
+* gaclient\settings.gradle
+* ic_launcher-web.png
+* proguard-project.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* jni\ => app\src\main\jni\
+* proguard.cfg => app\proguard.cfg
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

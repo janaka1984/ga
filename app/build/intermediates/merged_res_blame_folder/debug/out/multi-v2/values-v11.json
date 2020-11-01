@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\janaka_w\\StudioProjects\\android\\ga\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\janaka_w\\StudioProjects\\android\\ga\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "7,19,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "216,807,354",
+                        "endLines": "9,21,17",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "348,966,801"
+                    },
+                    "to": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,192,356",
+                        "endLines": "4,7,14",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "187,351,803"
+                    }
+                }
+            ]
+        }
+    ]
+}

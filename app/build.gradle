@@ -1,0 +1,25 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 16
+    buildToolsVersion "30.0.2"
+
+    defaultConfig {
+        applicationId "org.gaminganywhere.gaclient"
+        minSdkVersion 16
+        targetSdkVersion 16
+
+        ndk {
+            moduleName "gaclient"
+            abiFilters "armeabi-v7a", "x86"
+        }
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles 'proguard.cfg'
+        }
+    }
+}
