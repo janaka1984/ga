@@ -22,8 +22,8 @@
 #include <strings.h>
 #endif
 
-#include "/src/ga-common.h"
-#include "/src/minivp8.h"
+#include "src/ga-common.h"
+#include "src/minivp8.h"
 
 unsigned char *
 parse_descriptor(struct mini_vp8_context *ctx, unsigned char *ptr) {

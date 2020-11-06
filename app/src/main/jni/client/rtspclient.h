@@ -26,11 +26,11 @@
 #endif
 #include <pthread.h>
 
-#include "/src/rtspconf.h"
+#include "src/rtspconf.h"
 #ifndef ANDROID
 #include "/src/vsource.h"
 #endif
-#include "/src/dpipe.h"
+#include "src/dpipe.h"
 
 #define	SDL_USEREVENT_CREATE_OVERLAY	0x0001
 #define	SDL_USEREVENT_OPEN_AUDIO	0x0002

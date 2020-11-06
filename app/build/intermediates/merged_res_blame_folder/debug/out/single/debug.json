@@ -1,50 +1,50 @@
 [
     {
-        "merged": "C:\\Users\\janaka_w\\StudioProjects\\android\\ga\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\janaka_w\\StudioProjects\\android\\ga\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+        "merged": "/Users/amal/Projects/janaka/ga/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat",
+        "source": "/Users/amal/Projects/janaka/ga/app/src/main/res/drawable-mdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\janaka_w\\StudioProjects\\android\\ga\\app\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
-        "source": "C:\\Users\\janaka_w\\StudioProjects\\android\\ga\\app\\src\\main\\res\\menu\\main.xml"
+        "merged": "/Users/amal/Projects/janaka/ga/app/build/intermediates/res/merged/debug/drawable_psp_rect.png.flat",
+        "source": "/Users/amal/Projects/janaka/ga/app/src/main/res/drawable/psp_rect.png"
     },
     {
-        "merged": "C:\\Users\\janaka_w\\StudioProjects\\android\\ga\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\janaka_w\\StudioProjects\\android\\ga\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+        "merged": "/Users/amal/Projects/janaka/ga/app/build/intermediates/res/merged/debug/menu_main.xml.flat",
+        "source": "/Users/amal/Projects/janaka/ga/app/src/main/res/menu/main.xml"
     },
     {
-        "merged": "C:\\Users\\janaka_w\\StudioProjects\\android\\ga\\app\\build\\intermediates\\res\\merged\\debug\\drawable_psp_triangle.png.flat",
-        "source": "C:\\Users\\janaka_w\\StudioProjects\\android\\ga\\app\\src\\main\\res\\drawable\\psp_triangle.png"
+        "merged": "/Users/amal/Projects/janaka/ga/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat",
+        "source": "/Users/amal/Projects/janaka/ga/app/src/main/res/drawable-hdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\janaka_w\\StudioProjects\\android\\ga\\app\\build\\intermediates\\res\\merged\\debug\\xml_preference_profile.xml.flat",
-        "source": "C:\\Users\\janaka_w\\StudioProjects\\android\\ga\\app\\src\\main\\res\\xml\\preference_profile.xml"
+        "merged": "/Users/amal/Projects/janaka/ga/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/amal/Projects/janaka/ga/app/src/main/res/drawable-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\janaka_w\\StudioProjects\\android\\ga\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\janaka_w\\StudioProjects\\android\\ga\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+        "merged": "/Users/amal/Projects/janaka/ga/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/amal/Projects/janaka/ga/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\janaka_w\\StudioProjects\\android\\ga\\app\\build\\intermediates\\res\\merged\\debug\\drawable_psp_cross.png.flat",
-        "source": "C:\\Users\\janaka_w\\StudioProjects\\android\\ga\\app\\src\\main\\res\\drawable\\psp_cross.png"
+        "merged": "/Users/amal/Projects/janaka/ga/app/build/intermediates/res/merged/debug/drawable_psp_cross.png.flat",
+        "source": "/Users/amal/Projects/janaka/ga/app/src/main/res/drawable/psp_cross.png"
     },
     {
-        "merged": "C:\\Users\\janaka_w\\StudioProjects\\android\\ga\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\janaka_w\\StudioProjects\\android\\ga\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+        "merged": "/Users/amal/Projects/janaka/ga/app/build/intermediates/res/merged/debug/drawable_mouse32.png.flat",
+        "source": "/Users/amal/Projects/janaka/ga/app/src/main/res/drawable/mouse32.png"
     },
     {
-        "merged": "C:\\Users\\janaka_w\\StudioProjects\\android\\ga\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\janaka_w\\StudioProjects\\android\\ga\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "/Users/amal/Projects/janaka/ga/app/build/intermediates/res/merged/debug/drawable_psp_circle.png.flat",
+        "source": "/Users/amal/Projects/janaka/ga/app/src/main/res/drawable/psp_circle.png"
     },
     {
-        "merged": "C:\\Users\\janaka_w\\StudioProjects\\android\\ga\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mouse32.png.flat",
-        "source": "C:\\Users\\janaka_w\\StudioProjects\\android\\ga\\app\\src\\main\\res\\drawable\\mouse32.png"
+        "merged": "/Users/amal/Projects/janaka/ga/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/amal/Projects/janaka/ga/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\janaka_w\\StudioProjects\\android\\ga\\app\\build\\intermediates\\res\\merged\\debug\\drawable_psp_rect.png.flat",
-        "source": "C:\\Users\\janaka_w\\StudioProjects\\android\\ga\\app\\src\\main\\res\\drawable\\psp_rect.png"
+        "merged": "/Users/amal/Projects/janaka/ga/app/build/intermediates/res/merged/debug/drawable_psp_triangle.png.flat",
+        "source": "/Users/amal/Projects/janaka/ga/app/src/main/res/drawable/psp_triangle.png"
     },
     {
-        "merged": "C:\\Users\\janaka_w\\StudioProjects\\android\\ga\\app\\build\\intermediates\\res\\merged\\debug\\drawable_psp_circle.png.flat",
-        "source": "C:\\Users\\janaka_w\\StudioProjects\\android\\ga\\app\\src\\main\\res\\drawable\\psp_circle.png"
+        "merged": "/Users/amal/Projects/janaka/ga/app/build/intermediates/res/merged/debug/xml_preference_profile.xml.flat",
+        "source": "/Users/amal/Projects/janaka/ga/app/src/main/res/xml/preference_profile.xml"
     }
 ]

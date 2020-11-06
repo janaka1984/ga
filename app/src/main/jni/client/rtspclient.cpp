@@ -30,21 +30,21 @@ unsigned increaseReceiveBufferTo(UsageEnvironment& env,
 #ifndef ANDROID
 #include "/src/vsource.h"
 #endif
-#include "/src/rtspclient.h"
+#include "src/rtspclient.h"
 
-#include "/src/ga-common.h"
-#include "/src/ga-conf.h"
-#include "/src/ga-avcodec.h"
-#include "/src/controller.h"
-#include "/src/minih264.h"
-#include "/src/qosreport.h"
+#include "src/ga-common.h"
+#include "src/ga-conf.h"
+#include "src/ga-avcodec.h"
+#include "src/controller.h"
+#include "src/minih264.h"
+#include "src/qosreport.h"
 #ifdef ANDROID
-#include "/src/android-decoders.h"
+#include "src/android-decoders.h"
 #endif
-#include "/src/vconverter.h"
+#include "src/vconverter.h"
 
 #ifdef ANDROID
-#include "/src/libgaclient.h"
+#include "src/libgaclient.h"
 #endif
 
 #include <string.h>

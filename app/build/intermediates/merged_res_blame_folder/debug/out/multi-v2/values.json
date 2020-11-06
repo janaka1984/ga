@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\janaka_w\\StudioProjects\\android\\ga\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "/Users/amal/Projects/janaka/ga/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\janaka_w\\StudioProjects\\android\\ga\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "/Users/amal/Projects/janaka/ga/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "49",
+                        "endOffsets": "62"
+                    },
+                    "to": {
+                        "startLines": "28",
+                        "startColumns": "4",
+                        "startOffsets": "781",
+                        "endColumns": "49",
+                        "endOffsets": "826"
+                    }
+                },
+                {
+                    "source": "/Users/amal/Projects/janaka/ga/app/src/main/res/values/strings.xml",
                     "from": {
                         "startLines": "28,23,17,13,6,9,4,3,34,35,33",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -23,24 +40,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\janaka_w\\StudioProjects\\android\\ga\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "17",
-                        "endColumns": "49",
-                        "endOffsets": "62"
-                    },
-                    "to": {
-                        "startLines": "28",
-                        "startColumns": "4",
-                        "startOffsets": "781",
-                        "endColumns": "49",
-                        "endOffsets": "826"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\janaka_w\\StudioProjects\\android\\ga\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "/Users/amal/Projects/janaka/ga/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "7,16,27,35,20",
                         "startColumns": "4,4,4,4,4",
@@ -59,7 +59,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\janaka_w\\StudioProjects\\android\\ga\\app\\src\\main\\res\\values\\dimens.xml",
+                    "source": "/Users/amal/Projects/janaka/ga/app/src/main/res/values/dimens.xml",
                     "from": {
                         "startLines": "3,4",
                         "startColumns": "4,4",

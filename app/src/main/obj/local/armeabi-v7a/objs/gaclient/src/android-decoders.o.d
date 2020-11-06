@@ -1,294 +1,258 @@
 ./obj/local/armeabi-v7a/objs/gaclient/src/android-decoders.o: \
-  jni\src\android-decoders.cpp jni\src\ga-common.h jni\core\ga-common.h \
-  jni\armeabi-v7a\include\libavcodec\avcodec.h \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\errno.h \
-  jni\armeabi-v7a\include\libavutil\samplefmt.h \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\stdint.h \
-  jni\armeabi-v7a\include\libavutil\avutil.h \
-  jni\armeabi-v7a\include\libavutil\common.h \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\inttypes.h \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__config \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\limits.h \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\math.h \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\stdio.h \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\stdlib.h \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\string.h \
-  jni\armeabi-v7a\include\libavutil\attributes.h \
-  jni\armeabi-v7a\include\libavutil\version.h \
-  jni\armeabi-v7a\include\libavutil\macros.h \
-  jni\armeabi-v7a\include\libavutil\avconfig.h \
-  jni\armeabi-v7a\include\libavutil\mem.h \
-  jni\armeabi-v7a\include\libavutil\error.h \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\stddef.h \
-  jni\armeabi-v7a\include\libavutil\rational.h \
-  jni\armeabi-v7a\include\libavutil\mathematics.h \
-  jni\armeabi-v7a\include\libavutil\intfloat.h \
-  jni\armeabi-v7a\include\libavutil\log.h \
-  jni\armeabi-v7a\include\libavutil\pixfmt.h \
-  jni\armeabi-v7a\include\libavutil\old_pix_fmts.h \
-  jni\armeabi-v7a\include\libavutil\buffer.h \
-  jni\armeabi-v7a\include\libavutil\cpu.h \
-  jni\armeabi-v7a\include\libavutil\channel_layout.h \
-  jni\armeabi-v7a\include\libavutil\dict.h \
-  jni\armeabi-v7a\include\libavutil\frame.h \
-  jni\armeabi-v7a\include\libavcodec\version.h \
-  jni\armeabi-v7a\include\libavcodec\old_codec_ids.h jni\core\ga-win32.h \
-  jni\src\rtspclient.h jni\client\rtspclient.h jni\src\rtspconf.h \
-  jni\core\rtspconf.h \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\string \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\string_view \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__string \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\algorithm \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\initializer_list \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\cstddef \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\type_traits \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\cstring \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\utility \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__tuple \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\cstdint \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\version \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__debug \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\iosfwd \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\wchar.h \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\memory \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\typeinfo \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\exception \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\cstdlib \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\new \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\limits \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\iterator \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__functional_base \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\tuple \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\stdexcept \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\cassert \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\atomic \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\functional \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\bit \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\cstdio \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\cwchar \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\cwctype \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\cctype \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\ctype.h \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\wctype.h \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\vector \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__bit_reference \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\climits \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__split_buffer \
-  jni\src\dpipe.h jni\core\dpipe.h jni\src\libgaclient.h \
-  jni\src\ga-avcodec.h jni\core\ga-avcodec.h \
-  jni\armeabi-v7a\include\libswscale\swscale.h \
-  jni\armeabi-v7a\include\libswscale\version.h \
-  jni\armeabi-v7a\include\libswresample\swresample.h \
-  jni\armeabi-v7a\include\libswresample\version.h \
-  jni\armeabi-v7a\include\libavformat\avformat.h \
-  jni\armeabi-v7a\include\libavformat\avio.h \
-  jni\armeabi-v7a\include\libavformat\version.h \
-  jni\armeabi-v7a\include\libavutil\base64.h \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\map \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__tree \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__node_handle \
-  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\optional \
-  jni\src\minih264.h jni\client\minih264.h jni\src\minivp8.h \
-  jni\client\minivp8.h jni\src\android-decoders.h
+  jni/src/android-decoders.cpp jni/src/ga-common.h jni/core/ga-common.h \
+  jni/armeabi-v7a/include/libavcodec/avcodec.h \
+  jni/armeabi-v7a/include/libavutil/samplefmt.h \
+  jni/armeabi-v7a/include/libavutil/avutil.h \
+  jni/armeabi-v7a/include/libavutil/common.h \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/inttypes.h \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/math.h \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/stdio.h \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/stdlib.h \
+  jni/armeabi-v7a/include/libavutil/attributes.h \
+  jni/armeabi-v7a/include/libavutil/version.h \
+  jni/armeabi-v7a/include/libavutil/macros.h \
+  jni/armeabi-v7a/include/libavutil/avconfig.h \
+  jni/armeabi-v7a/include/libavutil/mem.h \
+  jni/armeabi-v7a/include/libavutil/error.h \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/stddef.h \
+  jni/armeabi-v7a/include/libavutil/rational.h \
+  jni/armeabi-v7a/include/libavutil/mathematics.h \
+  jni/armeabi-v7a/include/libavutil/intfloat.h \
+  jni/armeabi-v7a/include/libavutil/log.h \
+  jni/armeabi-v7a/include/libavutil/pixfmt.h \
+  jni/armeabi-v7a/include/libavutil/old_pix_fmts.h \
+  jni/armeabi-v7a/include/libavutil/buffer.h \
+  jni/armeabi-v7a/include/libavutil/cpu.h \
+  jni/armeabi-v7a/include/libavutil/channel_layout.h \
+  jni/armeabi-v7a/include/libavutil/dict.h \
+  jni/armeabi-v7a/include/libavutil/frame.h \
+  jni/armeabi-v7a/include/libavcodec/version.h \
+  jni/armeabi-v7a/include/libavcodec/old_codec_ids.h jni/core/ga-win32.h \
+  jni/src/rtspclient.h jni/client/rtspclient.h jni/src/rtspconf.h \
+  jni/core/rtspconf.h \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/string \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/string_view \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/__string \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/algorithm \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/initializer_list \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/cstring \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/utility \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/__tuple \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/cstdint \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/__debug \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/memory \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/typeinfo \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/exception \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/cstdlib \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/new \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/iterator \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/iosfwd \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/wchar.h \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/__functional_base \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/tuple \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/stdexcept \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/cassert \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/atomic \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/cstdio \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/cwchar \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/cwctype \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/cctype \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/ctype.h \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/wctype.h \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/vector \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/__bit_reference \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/climits \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/__split_buffer \
+  jni/src/dpipe.h jni/core/dpipe.h jni/src/libgaclient.h \
+  jni/src/ga-avcodec.h jni/core/ga-avcodec.h \
+  jni/armeabi-v7a/include/libswscale/swscale.h \
+  jni/armeabi-v7a/include/libswscale/version.h \
+  jni/armeabi-v7a/include/libswresample/swresample.h \
+  jni/armeabi-v7a/include/libswresample/version.h \
+  jni/armeabi-v7a/include/libavformat/avformat.h \
+  jni/armeabi-v7a/include/libavformat/avio.h \
+  jni/armeabi-v7a/include/libavformat/version.h \
+  jni/armeabi-v7a/include/libavutil/base64.h \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/map \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/__tree \
+  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/functional \
+  jni/src/minih264.h jni/client/minih264.h jni/src/minivp8.h \
+  jni/client/minivp8.h jni/src/android-decoders.h
 
-jni\src\ga-common.h:
+jni/src/ga-common.h:
 
-jni\core\ga-common.h:
+jni/core/ga-common.h:
 
-jni\armeabi-v7a\include\libavcodec\avcodec.h:
+jni/armeabi-v7a/include/libavcodec/avcodec.h:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\errno.h:
+jni/armeabi-v7a/include/libavutil/samplefmt.h:
 
-jni\armeabi-v7a\include\libavutil\samplefmt.h:
+jni/armeabi-v7a/include/libavutil/avutil.h:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\stdint.h:
+jni/armeabi-v7a/include/libavutil/common.h:
 
-jni\armeabi-v7a\include\libavutil\avutil.h:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/inttypes.h:
 
-jni\armeabi-v7a\include\libavutil\common.h:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/math.h:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\inttypes.h:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/stdio.h:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__config:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/stdlib.h:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\limits.h:
+jni/armeabi-v7a/include/libavutil/attributes.h:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\math.h:
+jni/armeabi-v7a/include/libavutil/version.h:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\stdio.h:
+jni/armeabi-v7a/include/libavutil/macros.h:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\stdlib.h:
+jni/armeabi-v7a/include/libavutil/avconfig.h:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\string.h:
+jni/armeabi-v7a/include/libavutil/mem.h:
 
-jni\armeabi-v7a\include\libavutil\attributes.h:
+jni/armeabi-v7a/include/libavutil/error.h:
 
-jni\armeabi-v7a\include\libavutil\version.h:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/stddef.h:
 
-jni\armeabi-v7a\include\libavutil\macros.h:
+jni/armeabi-v7a/include/libavutil/rational.h:
 
-jni\armeabi-v7a\include\libavutil\avconfig.h:
+jni/armeabi-v7a/include/libavutil/mathematics.h:
 
-jni\armeabi-v7a\include\libavutil\mem.h:
+jni/armeabi-v7a/include/libavutil/intfloat.h:
 
-jni\armeabi-v7a\include\libavutil\error.h:
+jni/armeabi-v7a/include/libavutil/log.h:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\stddef.h:
+jni/armeabi-v7a/include/libavutil/pixfmt.h:
 
-jni\armeabi-v7a\include\libavutil\rational.h:
+jni/armeabi-v7a/include/libavutil/old_pix_fmts.h:
 
-jni\armeabi-v7a\include\libavutil\mathematics.h:
+jni/armeabi-v7a/include/libavutil/buffer.h:
 
-jni\armeabi-v7a\include\libavutil\intfloat.h:
+jni/armeabi-v7a/include/libavutil/cpu.h:
 
-jni\armeabi-v7a\include\libavutil\log.h:
+jni/armeabi-v7a/include/libavutil/channel_layout.h:
 
-jni\armeabi-v7a\include\libavutil\pixfmt.h:
+jni/armeabi-v7a/include/libavutil/dict.h:
 
-jni\armeabi-v7a\include\libavutil\old_pix_fmts.h:
+jni/armeabi-v7a/include/libavutil/frame.h:
 
-jni\armeabi-v7a\include\libavutil\buffer.h:
+jni/armeabi-v7a/include/libavcodec/version.h:
 
-jni\armeabi-v7a\include\libavutil\cpu.h:
+jni/armeabi-v7a/include/libavcodec/old_codec_ids.h:
 
-jni\armeabi-v7a\include\libavutil\channel_layout.h:
+jni/core/ga-win32.h:
 
-jni\armeabi-v7a\include\libavutil\dict.h:
+jni/src/rtspclient.h:
 
-jni\armeabi-v7a\include\libavutil\frame.h:
+jni/client/rtspclient.h:
 
-jni\armeabi-v7a\include\libavcodec\version.h:
+jni/src/rtspconf.h:
 
-jni\armeabi-v7a\include\libavcodec\old_codec_ids.h:
+jni/core/rtspconf.h:
 
-jni\core\ga-win32.h:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/string:
 
-jni\src\rtspclient.h:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/string_view:
 
-jni\client\rtspclient.h:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/__string:
 
-jni\src\rtspconf.h:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/algorithm:
 
-jni\core\rtspconf.h:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/initializer_list:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\string:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/cstring:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\string_view:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/utility:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__string:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/__tuple:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\algorithm:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/cstdint:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\initializer_list:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/__debug:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\cstddef:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/memory:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\type_traits:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/typeinfo:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\cstring:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/exception:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\utility:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/cstdlib:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__tuple:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/new:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\cstdint:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/iterator:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\version:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/iosfwd:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__debug:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/wchar.h:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\iosfwd:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/__functional_base:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\wchar.h:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/tuple:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\memory:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/stdexcept:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\typeinfo:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/cassert:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\exception:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/atomic:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\cstdlib:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/cstdio:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\new:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/cwchar:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\limits:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/cwctype:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\iterator:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/cctype:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__functional_base:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/ctype.h:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\tuple:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/wctype.h:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\stdexcept:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/vector:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\cassert:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/__bit_reference:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\atomic:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/climits:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\functional:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/__split_buffer:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\bit:
+jni/src/dpipe.h:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\cstdio:
+jni/core/dpipe.h:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\cwchar:
+jni/src/libgaclient.h:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\cwctype:
+jni/src/ga-avcodec.h:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\cctype:
+jni/core/ga-avcodec.h:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\ctype.h:
+jni/armeabi-v7a/include/libswscale/swscale.h:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\wctype.h:
+jni/armeabi-v7a/include/libswscale/version.h:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\vector:
+jni/armeabi-v7a/include/libswresample/swresample.h:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__bit_reference:
+jni/armeabi-v7a/include/libswresample/version.h:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\climits:
+jni/armeabi-v7a/include/libavformat/avformat.h:
 
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__split_buffer:
+jni/armeabi-v7a/include/libavformat/avio.h:
 
-jni\src\dpipe.h:
+jni/armeabi-v7a/include/libavformat/version.h:
 
-jni\core\dpipe.h:
+jni/armeabi-v7a/include/libavutil/base64.h:
 
-jni\src\libgaclient.h:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/map:
 
-jni\src\ga-avcodec.h:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/__tree:
 
-jni\core\ga-avcodec.h:
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/functional:
 
-jni\armeabi-v7a\include\libswscale\swscale.h:
+jni/src/minih264.h:
 
-jni\armeabi-v7a\include\libswscale\version.h:
+jni/client/minih264.h:
 
-jni\armeabi-v7a\include\libswresample\swresample.h:
+jni/src/minivp8.h:
 
-jni\armeabi-v7a\include\libswresample\version.h:
+jni/client/minivp8.h:
 
-jni\armeabi-v7a\include\libavformat\avformat.h:
-
-jni\armeabi-v7a\include\libavformat\avio.h:
-
-jni\armeabi-v7a\include\libavformat\version.h:
-
-jni\armeabi-v7a\include\libavutil\base64.h:
-
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\map:
-
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__tree:
-
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__node_handle:
-
-C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\optional:
-
-jni\src\minih264.h:
-
-jni\client\minih264.h:
-
-jni\src\minivp8.h:
-
-jni\client\minivp8.h:
-
-jni\src\android-decoders.h:
+jni/src/android-decoders.h:

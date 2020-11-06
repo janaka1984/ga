@@ -3,14 +3,14 @@ org/gaminganywhere/gaclient/util/GAController.java
 org/gaminganywhere/gaclient/PlayerActivity.java
  org.gaminganywhere.gaclient.PlayerActivity
  org.gaminganywhere.gaclient.PlayerActivity$1
+org/gaminganywhere/gaclient/util/GAControllerBasic.java
+ org.gaminganywhere.gaclient.util.GAControllerBasic
 org/gaminganywhere/gaclient/MainActivity.java
  org.gaminganywhere.gaclient.MainActivity
  org.gaminganywhere.gaclient.MainActivity$1
  org.gaminganywhere.gaclient.MainActivity$2
  org.gaminganywhere.gaclient.MainActivity$Profile
  org.gaminganywhere.gaclient.MainActivity$ProfileAdapter
-org/gaminganywhere/gaclient/util/GAControllerBasic.java
- org.gaminganywhere.gaclient.util.GAControllerBasic
 org/gaminganywhere/gaclient/util/Pad.java
  org.gaminganywhere.gaclient.util.Pad
  org.gaminganywhere.gaclient.util.Pad$PartitionEventListener
@@ -42,13 +42,13 @@ org/gaminganywhere/gaclient/util/GAControllerDualPad.java
  org.gaminganywhere.gaclient.util.GAControllerDualPad
 org/gaminganywhere/gaclient/BuildConfig.java
  org.gaminganywhere.gaclient.BuildConfig
+org/gaminganywhere/gaclient/util/GAControllerLimbo.java
+ org.gaminganywhere.gaclient.util.GAControllerLimbo
 org/gaminganywhere/gaclient/SettingsActivity.java
  org.gaminganywhere.gaclient.SettingsActivity
  org.gaminganywhere.gaclient.SettingsActivity$1
  org.gaminganywhere.gaclient.SettingsActivity$2
  org.gaminganywhere.gaclient.SettingsActivity$3
-org/gaminganywhere/gaclient/util/GAControllerLimbo.java
- org.gaminganywhere.gaclient.util.GAControllerLimbo
 org/gaminganywhere/gaclient/util/GAControllerTemplate.java
  org.gaminganywhere.gaclient.util.GAControllerTemplate
 org/gaminganywhere/gaclient/util/GAControllerNDS.java

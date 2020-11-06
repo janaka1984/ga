@@ -19,7 +19,7 @@
 #ifndef __QOSREPORT_H__
 #define	__QOSREPORT_H__
 
-#include "/src/ga-common.h"
+#include "src/ga-common.h"
 #include "liveMedia.hh"
 #include "BasicUsageEnvironment.hh"
 

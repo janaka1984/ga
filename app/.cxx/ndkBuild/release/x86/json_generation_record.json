@@ -1,0 +1,68 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 16 min SDK version: x86",
+    "file": "/Users/amal/Projects/janaka/ga/app/src/main/jni/Android.mk",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "rebuilding JSON /Users/amal/Projects/janaka/ga/app/.cxx/ndkBuild/release/x86/android_gradle_build.json due to:",
+    "file": "/Users/amal/Projects/janaka/ga/app/src/main/jni/Android.mk",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "- force flag, will remove stale json folder",
+    "file": "/Users/amal/Projects/janaka/ga/app/src/main/jni/Android.mk",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "- expected json /Users/amal/Projects/janaka/ga/app/.cxx/ndkBuild/release/x86/android_gradle_build.json file is not present, will remove stale json folder",
+    "file": "/Users/amal/Projects/janaka/ga/app/src/main/jni/Android.mk",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "- missing previous command file /Users/amal/Projects/janaka/ga/app/.cxx/ndkBuild/release/x86/build_command.txt, will remove stale json folder",
+    "file": "/Users/amal/Projects/janaka/ga/app/src/main/jni/Android.mk",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "- command changed from previous, will remove stale json folder",
+    "file": "/Users/amal/Projects/janaka/ga/app/src/main/jni/Android.mk",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "removing stale contents from \u0027/Users/amal/Projects/janaka/ga/app/.cxx/ndkBuild/release/x86\u0027",
+    "file": "/Users/amal/Projects/janaka/ga/app/src/main/jni/Android.mk",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "created folder \u0027/Users/amal/Projects/janaka/ga/app/.cxx/ndkBuild/release/x86\u0027",
+    "file": "/Users/amal/Projects/janaka/ga/app/src/main/jni/Android.mk",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "executing ndkBuild Executable : /Users/amal/Library/Android/sdk/ndk/16.1.4479499/ndk-build\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003d/Users/amal/Projects/janaka/ga/app/src/main/jni/Android.mk\nNDK_APPLICATION_MK\u003d/Users/amal/Projects/janaka/ga/app/src/main/jni/Application.mk\nAPP_ABI\u003dx86\nNDK_ALL_ABIS\u003dx86\nNDK_DEBUG\u003d0\nAPP_PLATFORM\u003dandroid-16\nNDK_OUT\u003d/Users/amal/Projects/janaka/ga/app/build/intermediates/ndkBuild/release/obj\nNDK_LIBS_OUT\u003d/Users/amal/Projects/janaka/ga/app/build/intermediates/ndkBuild/release/lib\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file": "/Users/amal/Projects/janaka/ga/app/src/main/jni/Android.mk",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Executable : /Users/amal/Library/Android/sdk/ndk/16.1.4479499/ndk-build\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003d/Users/amal/Projects/janaka/ga/app/src/main/jni/Android.mk\nNDK_APPLICATION_MK\u003d/Users/amal/Projects/janaka/ga/app/src/main/jni/Application.mk\nAPP_ABI\u003dx86\nNDK_ALL_ABIS\u003dx86\nNDK_DEBUG\u003d0\nAPP_PLATFORM\u003dandroid-16\nNDK_OUT\u003d/Users/amal/Projects/janaka/ga/app/build/intermediates/ndkBuild/release/obj\nNDK_LIBS_OUT\u003d/Users/amal/Projects/janaka/ga/app/build/intermediates/ndkBuild/release/lib\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file": "/Users/amal/Projects/janaka/ga/app/src/main/jni/Android.mk",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed with problem. Exception: Build command failed.\nError while executing process /Users/amal/Library/Android/sdk/ndk/16.1.4479499/ndk-build with arguments {NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/amal/Projects/janaka/ga/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/amal/Projects/janaka/ga/app/src/main/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/amal/Projects/janaka/ga/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/amal/Projects/janaka/ga/app/build/intermediates/ndkBuild/release/lib APP_SHORT_COMMANDS\u003dfalse LOCAL_SHORT_COMMANDS\u003dfalse -B -n}\n\n/Users/amal/Projects/janaka/ga/app/src/main/jni/Android.mk:6: jni/Android.prebuilt.full: No such file or directory\n/Users/amal/Library/Android/sdk/ndk/16.1.4479499/build/core/build-binary.mk:693: Android NDK: Module gaclient depends on undefined modules: liveMedia BasicUsageEnvironment UsageEnvironment groupsock swscale swresample postproc avdevice avfilter avformat avcodec avutil theora theoradec theoraenc vpx mp3lame opus ogg vorbis vorbisenc vorbisfile x264    \n/Users/amal/Library/Android/sdk/ndk/16.1.4479499/build/core/build-binary.mk:706: *** Android NDK: Aborting (set APP_ALLOW_MISSING_DEPS\u003dtrue to allow missing dependencies)    .  Stop.\n",
+    "file": "/Users/amal/Projects/janaka/ga/app/src/main/jni/Android.mk",
+    "tag": "release|x86"
+  }
+]

@@ -22,9 +22,9 @@
 #include <SDL2/SDL_version.h>
 #include <SDL2/SDL_keycode.h>
 
-#include "/src/ga-common.h"
-#include "/src/ga-module.h"
-#include "/src/rtspconf.h"
+#include "src/ga-common.h"
+#include "src/ga-module.h"
+#include "src/rtspconf.h"
 
 #define	SDL_EVENT_MSGTYPE_NULL		0
 #define	SDL_EVENT_MSGTYPE_KEYBOARD	1

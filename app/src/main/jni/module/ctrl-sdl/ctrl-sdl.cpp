@@ -34,12 +34,12 @@
 #include <X11/extensions/XTest.h>
 #endif
 
-#include "/src/ga-common.h"
-#include "/src/ga-conf.h"
-#include "/src/controller.h"
-#include "/src/ctrl-sdl.h"
+#include "src/ga-common.h"
+#include "src/ga-conf.h"
+#include "src/controller.h"
+#include "src/ctrl-sdl.h"
 
-#include "/src/rtspconf.h"
+#include "src/rtspconf.h"
 
 #include <map>
 using namespace std;

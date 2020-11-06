@@ -19,10 +19,10 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "/src/ga-common.h"
-#include "/src/vsource.h"
-#include "/src/rtspclient.h"
-#include "/src/qosreport.h"
+#include "src/ga-common.h"
+#include "src/vsource.h"
+#include "src/rtspclient.h"
+#include "src/qosreport.h"
 
 #define	Q_MAX		(VIDEO_SOURCE_CHANNEL_MAX+1)
 

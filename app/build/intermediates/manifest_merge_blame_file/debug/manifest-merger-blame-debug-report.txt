@@ -5,62 +5,62 @@
 5    android:versionName="0.1" >
 6
 7    <uses-sdk
-7-->C:\Users\janaka_w\StudioProjects\android\ga\app\src\main\AndroidManifest.xml:7:5-9:41
+7-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:7:5-9:41
 8        android:minSdkVersion="16"
-8-->C:\Users\janaka_w\StudioProjects\android\ga\app\src\main\AndroidManifest.xml:8:9-35
+8-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:8:9-35
 9        android:targetSdkVersion="16" />
-9-->C:\Users\janaka_w\StudioProjects\android\ga\app\src\main\AndroidManifest.xml:9:9-38
+9-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:9:9-38
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\janaka_w\StudioProjects\android\ga\app\src\main\AndroidManifest.xml:10:5-66
-11-->C:\Users\janaka_w\StudioProjects\android\ga\app\src\main\AndroidManifest.xml:10:22-64
+11-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:10:5-66
+11-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:10:22-64
 12    <uses-permission android:name="android.permission.WAKE_LOCK" />
-12-->C:\Users\janaka_w\StudioProjects\android\ga\app\src\main\AndroidManifest.xml:11:5-67
-12-->C:\Users\janaka_w\StudioProjects\android\ga\app\src\main\AndroidManifest.xml:11:22-65
+12-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:11:5-67
+12-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:11:22-65
 13
 14    <application
-14-->C:\Users\janaka_w\StudioProjects\android\ga\app\src\main\AndroidManifest.xml:13:5-35:19
+14-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:13:5-35:19
 15        android:allowBackup="true"
-15-->C:\Users\janaka_w\StudioProjects\android\ga\app\src\main\AndroidManifest.xml:14:9-35
+15-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:14:9-35
 16        android:debuggable="true"
 17        android:icon="@drawable/ic_launcher"
-17-->C:\Users\janaka_w\StudioProjects\android\ga\app\src\main\AndroidManifest.xml:15:9-45
+17-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:15:9-45
 18        android:label="@string/app_name"
-18-->C:\Users\janaka_w\StudioProjects\android\ga\app\src\main\AndroidManifest.xml:16:9-41
+18-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:16:9-41
 19        android:testOnly="true"
 20        android:theme="@style/AppTheme" >
-20-->C:\Users\janaka_w\StudioProjects\android\ga\app\src\main\AndroidManifest.xml:17:9-40
+20-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:17:9-40
 21        <activity
-21-->C:\Users\janaka_w\StudioProjects\android\ga\app\src\main\AndroidManifest.xml:18:9-26:20
+21-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:18:9-26:20
 22            android:name="org.gaminganywhere.gaclient.MainActivity"
-22-->C:\Users\janaka_w\StudioProjects\android\ga\app\src\main\AndroidManifest.xml:19:13-68
+22-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:19:13-68
 23            android:label="@string/app_name" >
-23-->C:\Users\janaka_w\StudioProjects\android\ga\app\src\main\AndroidManifest.xml:20:13-45
+23-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:20:13-45
 24            <intent-filter>
-24-->C:\Users\janaka_w\StudioProjects\android\ga\app\src\main\AndroidManifest.xml:21:13-25:29
+24-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:21:13-25:29
 25                <action android:name="android.intent.action.MAIN" />
-25-->C:\Users\janaka_w\StudioProjects\android\ga\app\src\main\AndroidManifest.xml:22:17-69
-25-->C:\Users\janaka_w\StudioProjects\android\ga\app\src\main\AndroidManifest.xml:22:25-66
+25-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:22:17-69
+25-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:22:25-66
 26
 27                <category android:name="android.intent.category.LAUNCHER" />
-27-->C:\Users\janaka_w\StudioProjects\android\ga\app\src\main\AndroidManifest.xml:24:17-77
-27-->C:\Users\janaka_w\StudioProjects\android\ga\app\src\main\AndroidManifest.xml:24:27-74
+27-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:24:17-77
+27-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:24:27-74
 28            </intent-filter>
 29        </activity>
 30        <activity android:name="org.gaminganywhere.gaclient.SettingsActivity" >
-30-->C:\Users\janaka_w\StudioProjects\android\ga\app\src\main\AndroidManifest.xml:27:9-28:20
-30-->C:\Users\janaka_w\StudioProjects\android\ga\app\src\main\AndroidManifest.xml:27:19-78
+30-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:27:9-28:20
+30-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:27:19-78
 31        </activity>
 32        <activity
-32-->C:\Users\janaka_w\StudioProjects\android\ga\app\src\main\AndroidManifest.xml:29:9-34:20
+32-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:29:9-34:20
 33            android:name="org.gaminganywhere.gaclient.PlayerActivity"
-33-->C:\Users\janaka_w\StudioProjects\android\ga\app\src\main\AndroidManifest.xml:30:13-70
+33-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:30:13-70
 34            android:configChanges="orientation|keyboardHidden|screenSize"
-34-->C:\Users\janaka_w\StudioProjects\android\ga\app\src\main\AndroidManifest.xml:31:13-74
+34-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:31:13-74
 35            android:label="@string/title_activity_player"
-35-->C:\Users\janaka_w\StudioProjects\android\ga\app\src\main\AndroidManifest.xml:32:13-58
+35-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:32:13-58
 36            android:theme="@style/FullscreenTheme" >
-36-->C:\Users\janaka_w\StudioProjects\android\ga\app\src\main\AndroidManifest.xml:33:13-51
+36-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:33:13-51
 37        </activity>
 38    </application>
 39

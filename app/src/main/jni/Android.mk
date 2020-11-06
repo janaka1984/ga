@@ -1,4 +1,3 @@
-
 LOCAL_PATH := $(call my-dir)
 
 TARGET_PLATFORM := android-16
@@ -6,12 +5,17 @@ TARGET_PLATFORM := android-16
 include jni/Android.prebuilt.full
 
 include $(CLEAR_VARS)
+
 LOCAL_MODULE := gaclient
 ifeq ($(TARGET_ARCH_ABI),armeabi-v7a)
 LOCAL_ARM_MODE := arm
 LOCAL_ARM_NEON := true
 endif
+# Amal ==>
+LOCAL_DISABLE_FATAL_LINKER_WARNINGS := true
+# <== Amal
 LOCAL_CFLAGS := -Wno-psabi -DANDROID -D__STDC_CONSTANT_MACROS -DGL_GLEXT_PROTOTYPES #-DANDROID_NO_FFMPEG
+# LOCAL_CFLAGS := -DANDROID -D__STDC_CONSTANT_MACROS -DGL_GLEXT_PROTOTYPES #-DANDROID_NO_FFMPEG
 #-D__STDINT_LIMITS
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/$(TARGET_ARCH_ABI)/include $(LOCAL_PATH)/$(TARGET_ARCH_ABI)/include/live555
 LOCAL_SRC_FILES := src/ga-common.cpp src/ga-conf.cpp src/ga-confvar.cpp \

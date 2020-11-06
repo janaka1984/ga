@@ -1,0 +1,3 @@
+/Users/amal/Projects/janaka/ga/app/src/main/jni/Android.mk:6: jni/Android.prebuilt.full: No such file or directory
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/build/core/build-binary.mk:693: Android NDK: Module gaclient depends on undefined modules: liveMedia BasicUsageEnvironment UsageEnvironment groupsock swscale swresample postproc avdevice avfilter avformat avcodec avutil theora theoradec theoraenc vpx mp3lame opus ogg vorbis vorbisenc vorbisfile x264    
+/Users/amal/Library/Android/sdk/ndk/16.1.4479499/build/core/build-binary.mk:706: *** Android NDK: Aborting (set APP_ALLOW_MISSING_DEPS=true to allow missing dependencies)    .  Stop.

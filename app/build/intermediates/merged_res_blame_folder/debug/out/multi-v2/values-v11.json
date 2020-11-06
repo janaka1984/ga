@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\janaka_w\\StudioProjects\\android\\ga\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "outputFile": "/Users/amal/Projects/janaka/ga/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\janaka_w\\StudioProjects\\android\\ga\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "source": "/Users/amal/Projects/janaka/ga/app/src/main/res/values-v11/styles.xml",
                     "from": {
                         "startLines": "7,19,11",
                         "startColumns": "4,4,4",

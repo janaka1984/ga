@@ -22,8 +22,8 @@
 #include <strings.h>
 #endif
 
-#include "/src/ga-common.h"
-#include "/src/minih264.h"
+#include "src/ga-common.h"
+#include "src/minih264.h"
 
 static unsigned char *
 dupbuf(unsigned char *buf, int len) {
