@@ -1,0 +1,144 @@
+[
+    {
+        profileName : 'default',
+        settings : [
+            {   
+                type: 'section-headline',
+                value: 'Server Settings'
+            },
+            'server-protocol' : {
+                type : 'dropdown',
+                setting : 'server-protocol',
+                value : 'rtsp',
+                label : 'Protocol',
+                description : 'Select the protol, with which you want to receive the gaming stream.'
+            },
+            server-ip : {   
+                type : 'input',
+                setting : 'server-ip',
+                value : '127.0.0.1',
+                label : 'Host',
+                description : 'The IP address of your game server.'
+            },
+            {   
+                type : 'input',
+                setting : 'port-server',
+                value : '8554',
+                label : 'Port',
+                description : 'The port to use on game server.'
+            },
+            {   
+                type : 'input',
+                setting : 'object-path',
+                value : '/desktop',
+                label : 'Object Path',
+                description : 'Default value is \'\Desktop\''
+            },
+            { 
+                type : 'checkbox',
+                setting : 'rtp-over-tcp',
+                value : 'false',
+                label : 'RTP over TCP',
+                description : 'Stream RTP over TCP rather than UDP.'
+            },
+            {   
+                type : 'section-headline',
+                value : 'Controller Configuration'
+            },
+            {
+                type : 'dropdown',
+                setting : 'controller-layout',
+                value : 'empty',
+                label : 'Controller layout',
+                description : 'Select an on-screen controller layout.'
+            },
+            {
+                type : 'checkbox',
+                setting : 'allow-controller-config',
+                value : true,
+                label : 'Enable',
+                description : 'Enable custom controller configuration.'
+            },
+            {
+                type : 'dropdown',
+                setting : 'controller-protocol',
+                value : 'udp',
+                label : 'Protocol',
+                description : 'Select the protocol with which you want to send/receive controller signals.'
+            },
+            {   
+                type : 'input',
+                setting : 'controller-port',
+                value : '8554',
+                label : 'Port',
+                description : 'The port to use for the game controller signaling.'
+            },
+            {
+                type : 'checkbox',
+                setting : 'relative-mouse-mode',
+                value : false,
+                label : 'Relative mouse mode',
+                description : 'Use mouse mode relative to screen res of host.'
+            },
+            {   
+                type : 'section-headline',
+                value : 'Audio'
+            },
+            {
+                type : 'dropdown',
+                setting : 'audio-channels',
+                value : 2,
+                label : 'Channels',
+                description : 'Use mono or stereo audio output.'
+            },
+            {
+                type : 'dropdown',
+                setting : 'audio-sample-rate',
+                value : 44100,
+                label : 'Sample rate',
+                description : '44.1 kHz is the typical standard on most devices.'
+            },
+            {   
+                type : 'section-headline',
+                value : 'Additional Settings'
+            },
+            {
+                type : 'checkbox',
+                setting : 'android-audio-decoder',
+                value : false,
+                label : 'Android Audio Decoder',
+                description : 'Use Android\'s built-in audio decoder.'
+            },
+            {
+                type : 'checkbox',
+                setting : 'android-video-decoder',
+                value : false,
+                label : 'Android Video Decoder',
+                description : 'Use Android\'s built-in video decoder.'
+            },
+            {   
+                type : 'checkbox',
+                setting : 'portrait-mode',
+                value : false,
+                label : 'Portrait Mode',
+                description : 'Force streamer into portrait mode rather than switching to landscape orientation.'
+            },
+            {
+                type : 'checkbox-slider',
+                setting : 'drop-late-video-frame',
+                value : false,
+                threshold : 100,
+                label : 'Drop late video frame',
+                description : 'Drop frames, when they are not delivered in time or just partly by the server.'
+            },
+            {
+                type : 'checkbox-slider',
+                setting : 'watchdog-timeout',
+                value : false,
+                threshold : 100,
+                label : 'Watchdog timeout',
+                description : 'For how long should be tried to reconnect the stream.'
+            }
+        ]
+    }
+]

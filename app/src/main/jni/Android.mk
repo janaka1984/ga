@@ -1,8 +1,13 @@
-LOCAL_PATH := $(call my-dir)
+# LOCAL_PATH := $(call my-dir)
+JNI_DIR := $(call my-dir)
+LOCAL_PATH:= $(JNI_DIR)
+#include $(CLEAR_VARS)
+
 
 TARGET_PLATFORM := android-16
 
-include jni/Android.prebuilt.full
+include $(LOCAL_PATH)/Android.prebuilt.full
+# include jni/Android.prebuilt.full
 
 include $(CLEAR_VARS)
 

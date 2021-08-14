@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameCub3</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+   
+</head>
+<body>
+
+    
+    <div id="root">
+
+
+
+        <!-- ------- -->
+        <!-- SIDEBAR -->
+        <!-- ------- -->
+
+        <div id="sidebar-left" class="">
+            <div class="burger btn" id="burgerBtn" data-action="nav-toggle" onpointerdown="pointerDownHandler(this)"></div>
+            <div class="dash btn navItem" id="dashBtn" data-action="nav-dash" onpointerdown="pointerDownHandler(this)"></div>
+            <div class="settings btn navItem" id="settingsBtn" data-action="nav-settings" onpointerdown="pointerDownHandler(this)"></div>
+        </div>
+
+
+
+        <!-- -------------- -->
+        <!-- GAMES LAUNCHER -->
+        <!-- -------------- -->
+
+        <div id="dash" class="">
+            <div class="games-quickstart">
+                <div class="game-cover-container" id='control' data-action="game-start" data-game-id="control" onpointerdown="pointerDownHandler(this)">
+                    <div class="game-cover-border"></div>
+                    <div class="game-cover-image control"></div>
+                </div>
+                <div class="game-cover-container" id='wrc9' data-action="game-start" data-game-id="wrc9" onpointerdown="pointerDownHandler(this)">
+                    <div class="game-cover-border"></div>
+                    <div class="game-cover-image wrc9"></div>
+                </div>
+                <div class="game-cover-container" id='wrc8' data-action="game-start" data-game-id="wrc8" onpointerdown="pointerDownHandler(this)">
+                    <div class="game-cover-border"></div>
+                    <div class="game-cover-image wrc8"></div>
+                </div>
+            </div>   
+        </div>
+
+
+
+        <!-- -------- -->
+        <!-- SETTINGS -->
+        <!-- -------- -->
+
+        <div id="settings" class="hidden">
+        <div class="content" id="settings-content">
+
+            <div class="headline">
+                <h1 class="headline-section">Settings</h1>
+            </div>
+
+
+            
+            <div class="setting-section-headline">
+                <h3>Server settings</h3>
+            </div>
+
+            <!-- 
+                
+            <div class="setting-container">
+                <div class="content">
+                    <div class="full-container">
+                        <label for="profile">Profile</label><br>
+                        <p class="description">Some descptional text</p>
+                        <div>
+                            <input type="button" id="new-profile" value="New Profile" class="button">
+                        </div>
+                    </div>                
+                </div>
+            </div> 
+        
+        
+            
+            <div>
+                <input type="button" id="connect" value="Connect" class="setting button" onpointerdown="">
+            </div>
+                    
+            -->
+
+            <div class="setting-container">
+                <div class="content">
+                    <div class="full-container">
+                        <label for="server-protocol">Protocol</label><br>
+                        <p class="description">Select the protol, with which you want to receive the gaming stream.</p>
+                        <div>
+                            <select id="server-protocol" name="server-protocol" class="setting dropdown">
+                                <option value="rtsp">RTSP</option>
+                                <option value="webrtc">WebRTC</option>
+                                <option value="UPD">UDP</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="setting-container">
+                <div class="content">
+                    <div class="full-container">
+                        <label for="server-ip">Host</label><br>
+                        <p class="description">The IP address of your game server.</p>
+                        <div>
+                            <input type="text" name="server-ip" id="server-ip" value="127.0.0.1" class="setting text">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="setting-container">
+                <div class="content">
+                    <div class="full-container">
+                        <label for="server-port">Port</label><br>
+                        <p class="description">The port to use on game server.</p>
+                        <div>
+                            <input type="text" name="server-port" id="server-port" value="8554" class="setting text">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="setting-container">
+                <div class="content">
+                    <div class="full-container">
+                        <label for="object-path">Object Path</label><br>
+                        <p class="description">Default value is \Desktop.</p>
+                        <div>
+                            <input type="text" name="object-path" id="object-path" value="\Desktop" class="setting text">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="setting-container">
+                <div class="content">
+                    <div class="info-container">
+                        <label for="rtp-over-tcp">RTP over TCP</label>
+                        <p class="description">Stream RTP over TCP rather than UDP.</p>
+                    </div>
+                    <div class="toggle-container">
+                        <input type="checkbox" id="rtp-over-tcp" name="rtp-over-tcp" class="setting toggle">
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="setting-section-headline">
+                <h3>Controller Configuration</h3>
+            </div>
+
+            <div class="setting-container">
+                <div class="content">
+                    <div class="full-container">
+                        <label for="controller-layout">Controller layout</label><br>
+                        <p class="description">Select an on-screen controller layout.</p>
+                        <div>
+                            <select id="controller-layout" name="controller-layout" class="setting dropdown">
+                                <option value="empty">Empty (no controls)</option>
+                                <option value="basic">Basic (mouse buttons)</option>
+                                <option value="dualpad">DualPad (Arrow Keys and mouse buttons)</option>
+                                <option value="limbo">Limbo (Arrow keys and CTRL/ENTER)</option>
+                                <option value="n64">N64 (emulated N64 controller)</option>
+                                <option value="nds">NDS (emulated NDS controller)</option>
+                                <option value="psp">PSP (emulated PSP controller)</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="setting-container">
+                <div class="content">
+                    <div class="info-container">
+                        <label for="allow-controller-config">Enable</label>
+                        <p class="description">Use custom controller configuration.</p>
+                    </div>
+                    <div class="toggle-container">
+                        <input type="checkbox" id="allow-controller-config" name="allow-controller-config" class="setting toggle" unchecked>
+                    </div>
+                </div>
+            </div>
+
+            <div class="setting-container">
+                <div class="content">
+                    <div class="full-container">
+                        <label for="controller-protocol">Protocol</label><br>
+                        <p class="description">Select the protocol with which you want to send/receive control signals.</p>
+                        <div>
+                            <select id="controller-protocol" name="controller-protocol" class="setting dropdown">
+                                <option value="udp">UDP</option>
+                                <option value="tcp">TCP</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="setting-container">
+                <div class="content">
+                    <div class="full-container">
+                        <label for="controller-port">Port</label><br>
+                        <p class="description">The port to use for control signaling.</p>
+                        <div>
+                            <input type="text" name="controller-port" id="controller-port" value="8554" class="setting text">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="setting-container">
+                <div class="content">
+                    <div class="info-container">
+                        <label for="relative-mouse-mode">Relative mouse mode</label>
+                        <p class="description">'Use mouse mode relative to screen res of host.</p>
+                    </div>
+                    <div class="toggle-container">
+                        <input type="checkbox" id="relative-mouse-mode" name="relative-mouse-mode" class="setting toggle" unchecked>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="setting-section-headline">
+                <h3>Audio</h3>
+            </div>
+
+            <div class="setting-container">
+                <div class="content">
+                    <div class="full-container">
+                        <label for="audio-channels">Audio channel</label><br>
+                        <p class="description">Please select either mono or stereo.</p>
+                        <div>
+                            <select id="audio-channels" name="audio-channels" class="setting dropdown">
+                                <option value="1">Mono</option>
+                                <option value="2" selected>Stereo</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="setting-container">
+                <div class="content">
+                    <div class="full-container">
+                        <label for="audio-sample-rate">Sammple rate</label><br>
+                        <p class="description">Select the protocol with which you want to send/receive control signals.</p>
+                        <div>
+                            <select id="audio-sample-rate" name="audio-sample-rate" class="setting dropdown">
+                                <option value="22500">22.5 kHz</option>
+                                <option value="44100" selected>44.1 kHz</option>
+                                <option value="48000">48 kHz</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="setting-section-headline">
+                <h3>Additional Settings</h3>
+            </div>
+            
+            <div class="setting-container">
+            <div class="content">
+                <div class="info-container">
+                    <label for="audio-decoder-android">Android Audio Decoder</label>
+                    <p class="description">Use Android's built-in audio decoder</p>
+                </div>
+                <div class="toggle-container">
+                    <input type="hidden" name="audio-decoder-android" value="0">
+                    <input type="checkbox" id="audio-decoder-android" name="audio-decoder-android" class="setting toggle" unchecked>
+                </div>
+            </div>
+            </div>
+
+            <div class="setting-container">
+            <div class="content">
+                <div class="info-container">
+                    <label for="video-decoder-android">Android Video Decoder</label>
+                    <p class="description">Use Android's built-in video decoder</p>
+                </div>
+                <div class="toggle-container">
+                    <input type="checkbox" id="video-decoder-android" name="video-decoder-android" class="setting toggle">
+                </div>
+            </div>
+            </div>
+
+            <div class="setting-container">
+            <div class="content">
+                <div class="info-container">
+                    <label for="portrait-mode">Portrait Mode</label>
+                    <p class="description">Force App to run in portrait mode.</p>
+                </div>
+                <div class="toggle-container">
+                    <input type="checkbox" id="portrait-mode" name="portrait-mode" value="1" class="setting toggle">
+                </div>
+            </div>
+            </div>
+
+            <div class="setting-container">
+            <div class="content">
+                <div class="info-container">
+                    <label for="drop-late-video-frame">Drop late video frame</label>
+                    <p class="description">Drop frames, when they are not delivered in time</p>
+                </div>
+                <div class="toggle-container">
+                    <input type="checkbox" id="drop-late-video-frame" name="drop-late-video-frame" value="disabled" class="setting toggle">
+                </div>
+            </div>
+            </div>
+
+            <div class="setting-container">
+            <div class="content">
+                <input type="range" id="drop-late-video-frame-threshold" name="drop-late-video-frame" min="0" max="1500" class="setting slider">
+            </div>
+            </div>
+
+            <div class="setting-container">
+            <div class="content">
+                <div class="info-container">
+                    <label for="watchdog-timeout">Watchdog timeout</label>
+                    <p class="description">For how long should be tried to reconnect the stream.</p>
+                </div>
+                <div class="toggle-container">
+                    <input type="checkbox" id="watchdog-timeout" name="watchdog-timeout" class="setting toggle">
+                </div>
+            </div>
+            </div>
+
+            <div class="setting-container">
+            <div class="content">
+                <input type="range" id="watchdog-timeout-threshold" name="watchdog-timeout" min="0" max="60" class="setting slider">
+            </div>
+            </div>
+
+
+        
+        </div>
+        </div>
+    </div>
+    
+
+
+    <!-- -------------------- -->
+    <!-- JAVASCRIPT GOES HERE -->
+    <!-- -------------------- -->
+
+    <script src="js/helpers.js"></script>
+    <script src="js/sidebarLeft.js"></script>
+    <script src="js/games.js"></script>
+    <script src="js/settings.js"></script>
+
+</body>
+</html>

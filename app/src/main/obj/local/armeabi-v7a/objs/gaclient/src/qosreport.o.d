@@ -1,730 +1,770 @@
-./obj/local/armeabi-v7a/objs/gaclient/src/qosreport.o: \
-  jni/src/qosreport.cpp jni/client/qosreport.cpp \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/stdio.h \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/__config \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/string.h \
-  jni/src/ga-common.h jni/core/ga-common.h \
-  jni/armeabi-v7a/include/libavcodec/avcodec.h \
-  jni/armeabi-v7a/include/libavutil/samplefmt.h \
-  jni/armeabi-v7a/include/libavutil/avutil.h \
-  jni/armeabi-v7a/include/libavutil/common.h \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/inttypes.h \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/math.h \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/stdlib.h \
-  jni/armeabi-v7a/include/libavutil/attributes.h \
-  jni/armeabi-v7a/include/libavutil/version.h \
-  jni/armeabi-v7a/include/libavutil/macros.h \
-  jni/armeabi-v7a/include/libavutil/avconfig.h \
-  jni/armeabi-v7a/include/libavutil/mem.h \
-  jni/armeabi-v7a/include/libavutil/error.h \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/stddef.h \
-  jni/armeabi-v7a/include/libavutil/rational.h \
-  jni/armeabi-v7a/include/libavutil/mathematics.h \
-  jni/armeabi-v7a/include/libavutil/intfloat.h \
-  jni/armeabi-v7a/include/libavutil/log.h \
-  jni/armeabi-v7a/include/libavutil/pixfmt.h \
-  jni/armeabi-v7a/include/libavutil/old_pix_fmts.h \
-  jni/armeabi-v7a/include/libavutil/buffer.h \
-  jni/armeabi-v7a/include/libavutil/cpu.h \
-  jni/armeabi-v7a/include/libavutil/channel_layout.h \
-  jni/armeabi-v7a/include/libavutil/dict.h \
-  jni/armeabi-v7a/include/libavutil/frame.h \
-  jni/armeabi-v7a/include/libavcodec/version.h \
-  jni/armeabi-v7a/include/libavcodec/old_codec_ids.h jni/core/ga-win32.h \
-  jni/src/vsource.h jni/core/vsource.h jni/core/ga-avcodec.h \
-  jni/armeabi-v7a/include/libswscale/swscale.h \
-  jni/armeabi-v7a/include/libswscale/version.h \
-  jni/armeabi-v7a/include/libswresample/swresample.h \
-  jni/armeabi-v7a/include/libswresample/version.h \
-  jni/armeabi-v7a/include/libavformat/avformat.h \
-  jni/armeabi-v7a/include/libavformat/avio.h \
-  jni/armeabi-v7a/include/libavformat/version.h \
-  jni/armeabi-v7a/include/libavutil/base64.h \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/map \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/__tree \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/iterator \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/iosfwd \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/wchar.h \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/__functional_base \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/typeinfo \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/exception \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/cstdlib \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/cstdint \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/new \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/utility \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/__tuple \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/initializer_list \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/cstring \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/__debug \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/memory \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/tuple \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/stdexcept \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/cassert \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/atomic \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/algorithm \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/functional \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/string \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/string_view \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/__string \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/cstdio \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/cwchar \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/cwctype \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/cctype \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/ctype.h \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/wctype.h \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/vector \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/__bit_reference \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/climits \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/__split_buffer \
-  jni/core/dpipe.h jni/src/rtspclient.h jni/client/rtspclient.h \
-  jni/src/rtspconf.h jni/core/rtspconf.h jni/src/dpipe.h \
-  jni/src/qosreport.h jni/client/qosreport.h \
-  jni/armeabi-v7a/include/live555/liveMedia.hh \
-  jni/armeabi-v7a/include/live555/MPEG1or2AudioRTPSink.hh \
-  jni/armeabi-v7a/include/live555/AudioRTPSink.hh \
-  jni/armeabi-v7a/include/live555/MultiFramedRTPSink.hh \
-  jni/armeabi-v7a/include/live555/RTPSink.hh \
-  jni/armeabi-v7a/include/live555/MediaSink.hh \
-  jni/armeabi-v7a/include/live555/FramedSource.hh \
-  jni/armeabi-v7a/include/live555/NetCommon.h \
-  jni/armeabi-v7a/include/live555/MediaSource.hh \
-  jni/armeabi-v7a/include/live555/Media.hh \
-  jni/armeabi-v7a/include/live555/liveMedia_version.hh \
-  jni/armeabi-v7a/include/live555/HashTable.hh \
-  jni/armeabi-v7a/include/live555/Boolean.hh \
-  jni/armeabi-v7a/include/live555/UsageEnvironment.hh \
-  jni/armeabi-v7a/include/live555/UsageEnvironment_version.hh \
-  jni/armeabi-v7a/include/live555/strDup.hh \
-  jni/armeabi-v7a/include/live555/RTPInterface.hh \
-  jni/armeabi-v7a/include/live555/Groupsock.hh \
-  jni/armeabi-v7a/include/live555/groupsock_version.hh \
-  jni/armeabi-v7a/include/live555/NetInterface.hh \
-  jni/armeabi-v7a/include/live555/NetAddress.hh \
-  jni/armeabi-v7a/include/live555/GroupEId.hh \
-  jni/armeabi-v7a/include/live555/MP3ADURTPSink.hh \
-  jni/armeabi-v7a/include/live555/MPEG1or2VideoRTPSink.hh \
-  jni/armeabi-v7a/include/live555/VideoRTPSink.hh \
-  jni/armeabi-v7a/include/live555/MPEG4ESVideoRTPSink.hh \
-  jni/armeabi-v7a/include/live555/AMRAudioFileSink.hh \
-  jni/armeabi-v7a/include/live555/FileSink.hh \
-  jni/armeabi-v7a/include/live555/H264VideoFileSink.hh \
-  jni/armeabi-v7a/include/live555/H264or5VideoFileSink.hh \
-  jni/armeabi-v7a/include/live555/H265VideoFileSink.hh \
-  jni/armeabi-v7a/include/live555/OggFileSink.hh \
-  jni/armeabi-v7a/include/live555/BasicUDPSink.hh \
-  jni/armeabi-v7a/include/live555/GSMAudioRTPSink.hh \
-  jni/armeabi-v7a/include/live555/H263plusVideoRTPSink.hh \
-  jni/armeabi-v7a/include/live555/H264VideoRTPSink.hh \
-  jni/armeabi-v7a/include/live555/H264or5VideoRTPSink.hh \
-  jni/armeabi-v7a/include/live555/FramedFilter.hh \
-  jni/armeabi-v7a/include/live555/H265VideoRTPSink.hh \
-  jni/armeabi-v7a/include/live555/DVVideoRTPSource.hh \
-  jni/armeabi-v7a/include/live555/MultiFramedRTPSource.hh \
-  jni/armeabi-v7a/include/live555/RTPSource.hh \
-  jni/armeabi-v7a/include/live555/DVVideoRTPSink.hh \
-  jni/armeabi-v7a/include/live555/DVVideoStreamFramer.hh \
-  jni/armeabi-v7a/include/live555/H264VideoStreamFramer.hh \
-  jni/armeabi-v7a/include/live555/H264or5VideoStreamFramer.hh \
-  jni/armeabi-v7a/include/live555/MPEGVideoStreamFramer.hh \
-  jni/armeabi-v7a/include/live555/H265VideoStreamFramer.hh \
-  jni/armeabi-v7a/include/live555/H264VideoStreamDiscreteFramer.hh \
-  jni/armeabi-v7a/include/live555/H264or5VideoStreamDiscreteFramer.hh \
-  jni/armeabi-v7a/include/live555/H265VideoStreamDiscreteFramer.hh \
-  jni/armeabi-v7a/include/live555/JPEGVideoRTPSink.hh \
-  jni/armeabi-v7a/include/live555/SimpleRTPSink.hh \
-  jni/armeabi-v7a/include/live555/uLawAudioFilter.hh \
-  jni/armeabi-v7a/include/live555/MPEG2IndexFromTransportStream.hh \
-  jni/armeabi-v7a/include/live555/MPEG2TransportStreamTrickModeFilter.hh \
-  jni/armeabi-v7a/include/live555/MPEG2TransportStreamIndexFile.hh \
-  jni/armeabi-v7a/include/live555/ByteStreamMultiFileSource.hh \
-  jni/armeabi-v7a/include/live555/ByteStreamFileSource.hh \
-  jni/armeabi-v7a/include/live555/FramedFileSource.hh \
-  jni/armeabi-v7a/include/live555/ByteStreamMemoryBufferSource.hh \
-  jni/armeabi-v7a/include/live555/BasicUDPSource.hh \
-  jni/armeabi-v7a/include/live555/SimpleRTPSource.hh \
-  jni/armeabi-v7a/include/live555/MPEG1or2AudioRTPSource.hh \
-  jni/armeabi-v7a/include/live555/MPEG4LATMAudioRTPSource.hh \
-  jni/armeabi-v7a/include/live555/MPEG4LATMAudioRTPSink.hh \
-  jni/armeabi-v7a/include/live555/MPEG4ESVideoRTPSource.hh \
-  jni/armeabi-v7a/include/live555/MPEG4GenericRTPSource.hh \
-  jni/armeabi-v7a/include/live555/MP3ADURTPSource.hh \
-  jni/armeabi-v7a/include/live555/QCELPAudioRTPSource.hh \
-  jni/armeabi-v7a/include/live555/AMRAudioRTPSource.hh \
-  jni/armeabi-v7a/include/live555/AMRAudioSource.hh \
-  jni/armeabi-v7a/include/live555/JPEGVideoRTPSource.hh \
-  jni/armeabi-v7a/include/live555/JPEGVideoSource.hh \
-  jni/armeabi-v7a/include/live555/MPEG1or2VideoRTPSource.hh \
-  jni/armeabi-v7a/include/live555/VorbisAudioRTPSource.hh \
-  jni/armeabi-v7a/include/live555/TheoraVideoRTPSource.hh \
-  jni/armeabi-v7a/include/live555/VP8VideoRTPSource.hh \
-  jni/armeabi-v7a/include/live555/VP9VideoRTPSource.hh \
-  jni/armeabi-v7a/include/live555/MPEG2TransportStreamFromPESSource.hh \
-  jni/armeabi-v7a/include/live555/MPEG2TransportStreamMultiplexor.hh \
-  jni/armeabi-v7a/include/live555/MPEG1or2Demux.hh \
-  jni/armeabi-v7a/include/live555/MPEG1or2DemuxedElementaryStream.hh \
-  jni/armeabi-v7a/include/live555/MPEG2TransportStreamFromESSource.hh \
-  jni/armeabi-v7a/include/live555/MPEG2TransportStreamFramer.hh \
-  jni/armeabi-v7a/include/live555/ADTSAudioFileSource.hh \
-  jni/armeabi-v7a/include/live555/H261VideoRTPSource.hh \
-  jni/armeabi-v7a/include/live555/H263plusVideoRTPSource.hh \
-  jni/armeabi-v7a/include/live555/H264VideoRTPSource.hh \
-  jni/armeabi-v7a/include/live555/H265VideoRTPSource.hh \
-  jni/armeabi-v7a/include/live555/MP3FileSource.hh \
-  jni/armeabi-v7a/include/live555/MP3ADU.hh \
-  jni/armeabi-v7a/include/live555/MP3ADUinterleaving.hh \
-  jni/armeabi-v7a/include/live555/MP3Transcoder.hh \
-  jni/armeabi-v7a/include/live555/MP3ADUTranscoder.hh \
-  jni/armeabi-v7a/include/live555/MPEG1or2AudioStreamFramer.hh \
-  jni/armeabi-v7a/include/live555/H263plusVideoStreamFramer.hh \
-  jni/armeabi-v7a/include/live555/AC3AudioStreamFramer.hh \
-  jni/armeabi-v7a/include/live555/AC3AudioRTPSource.hh \
-  jni/armeabi-v7a/include/live555/AC3AudioRTPSink.hh \
-  jni/armeabi-v7a/include/live555/VorbisAudioRTPSink.hh \
-  jni/armeabi-v7a/include/live555/TheoraVideoRTPSink.hh \
-  jni/armeabi-v7a/include/live555/VP8VideoRTPSink.hh \
-  jni/armeabi-v7a/include/live555/VP9VideoRTPSink.hh \
-  jni/armeabi-v7a/include/live555/MPEG4GenericRTPSink.hh \
-  jni/armeabi-v7a/include/live555/MPEG1or2VideoStreamDiscreteFramer.hh \
-  jni/armeabi-v7a/include/live555/MPEG1or2VideoStreamFramer.hh \
-  jni/armeabi-v7a/include/live555/MPEG4VideoStreamDiscreteFramer.hh \
-  jni/armeabi-v7a/include/live555/MPEG4VideoStreamFramer.hh \
-  jni/armeabi-v7a/include/live555/DeviceSource.hh \
-  jni/armeabi-v7a/include/live555/AudioInputDevice.hh \
-  jni/armeabi-v7a/include/live555/WAVAudioFileSource.hh \
-  jni/armeabi-v7a/include/live555/StreamReplicator.hh \
-  jni/armeabi-v7a/include/live555/RTSPRegisterSender.hh \
-  jni/armeabi-v7a/include/live555/RTSPClient.hh \
-  jni/armeabi-v7a/include/live555/MediaSession.hh \
-  jni/armeabi-v7a/include/live555/RTCP.hh \
-  jni/armeabi-v7a/include/live555/DigestAuthentication.hh \
-  jni/armeabi-v7a/include/live555/RTSPServer.hh \
-  jni/armeabi-v7a/include/live555/ServerMediaSession.hh \
-  jni/armeabi-v7a/include/live555/RTSPServerSupportingHTTPStreaming.hh \
-  jni/armeabi-v7a/include/live555/TCPStreamSink.hh \
-  jni/armeabi-v7a/include/live555/SIPClient.hh \
-  jni/armeabi-v7a/include/live555/QuickTimeFileSink.hh \
-  jni/armeabi-v7a/include/live555/QuickTimeGenericRTPSource.hh \
-  jni/armeabi-v7a/include/live555/AVIFileSink.hh \
-  jni/armeabi-v7a/include/live555/PassiveServerMediaSubsession.hh \
-  jni/armeabi-v7a/include/live555/MPEG4VideoFileServerMediaSubsession.hh \
-  jni/armeabi-v7a/include/live555/FileServerMediaSubsession.hh \
-  jni/armeabi-v7a/include/live555/OnDemandServerMediaSubsession.hh \
-  jni/armeabi-v7a/include/live555/H264VideoFileServerMediaSubsession.hh \
-  jni/armeabi-v7a/include/live555/H265VideoFileServerMediaSubsession.hh \
-  jni/armeabi-v7a/include/live555/WAVAudioFileServerMediaSubsession.hh \
-  jni/armeabi-v7a/include/live555/AMRAudioFileServerMediaSubsession.hh \
-  jni/armeabi-v7a/include/live555/AMRAudioFileSource.hh \
-  jni/armeabi-v7a/include/live555/AMRAudioRTPSink.hh \
-  jni/armeabi-v7a/include/live555/T140TextRTPSink.hh \
-  jni/armeabi-v7a/include/live555/TextRTPSink.hh \
-  jni/armeabi-v7a/include/live555/MP3AudioFileServerMediaSubsession.hh \
-  jni/armeabi-v7a/include/live555/MPEG1or2VideoFileServerMediaSubsession.hh \
-  jni/armeabi-v7a/include/live555/MPEG1or2FileServerDemux.hh \
-  jni/armeabi-v7a/include/live555/MPEG2TransportFileServerMediaSubsession.hh \
-  jni/armeabi-v7a/include/live555/H263plusVideoFileServerMediaSubsession.hh \
-  jni/armeabi-v7a/include/live555/ADTSAudioFileServerMediaSubsession.hh \
-  jni/armeabi-v7a/include/live555/DVVideoFileServerMediaSubsession.hh \
-  jni/armeabi-v7a/include/live555/AC3AudioFileServerMediaSubsession.hh \
-  jni/armeabi-v7a/include/live555/MPEG2TransportUDPServerMediaSubsession.hh \
-  jni/armeabi-v7a/include/live555/MatroskaFileServerDemux.hh \
-  jni/armeabi-v7a/include/live555/MatroskaFile.hh \
-  jni/armeabi-v7a/include/live555/OggFileServerDemux.hh \
-  jni/armeabi-v7a/include/live555/OggFile.hh \
-  jni/armeabi-v7a/include/live555/ProxyServerMediaSession.hh \
-  jni/armeabi-v7a/include/live555/DarwinInjector.hh \
-  jni/armeabi-v7a/include/live555/BasicUsageEnvironment.hh \
-  jni/armeabi-v7a/include/live555/BasicUsageEnvironment0.hh \
-  jni/armeabi-v7a/include/live555/BasicUsageEnvironment_version.hh \
-  jni/armeabi-v7a/include/live555/DelayQueue.hh
-
-jni/client/qosreport.cpp:
-
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/stdio.h:
-
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/__config:
-
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/string.h:
-
-jni/src/ga-common.h:
-
-jni/core/ga-common.h:
-
-jni/armeabi-v7a/include/libavcodec/avcodec.h:
-
-jni/armeabi-v7a/include/libavutil/samplefmt.h:
-
-jni/armeabi-v7a/include/libavutil/avutil.h:
-
-jni/armeabi-v7a/include/libavutil/common.h:
-
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/inttypes.h:
-
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/math.h:
-
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/stdlib.h:
-
-jni/armeabi-v7a/include/libavutil/attributes.h:
-
-jni/armeabi-v7a/include/libavutil/version.h:
-
-jni/armeabi-v7a/include/libavutil/macros.h:
-
-jni/armeabi-v7a/include/libavutil/avconfig.h:
-
-jni/armeabi-v7a/include/libavutil/mem.h:
-
-jni/armeabi-v7a/include/libavutil/error.h:
+D:/GAMING/workingversion/ga/app/src/main/obj/local/armeabi-v7a/objs/gaclient/src/qosreport.o: \
+  D:\GAMING\workingversion\ga\app\src\main\jni\src\qosreport.cpp \
+  D:\GAMING\workingversion\ga\app\src\main\jni\client\qosreport.cpp \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\stdio.h \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__config \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\string.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\src\ga-common.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\core\ga-common.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavcodec\avcodec.h \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\errno.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\samplefmt.h \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\stdint.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\avutil.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\common.h \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\inttypes.h \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\limits.h \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\math.h \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\stdlib.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\attributes.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\version.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\macros.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\avconfig.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\mem.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\error.h \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\stddef.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\rational.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\mathematics.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\intfloat.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\log.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\pixfmt.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\old_pix_fmts.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\buffer.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\cpu.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\channel_layout.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\dict.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\frame.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavcodec\version.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavcodec\old_codec_ids.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\core\ga-win32.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\src\vsource.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\core\vsource.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\core\ga-avcodec.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libswscale\swscale.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libswscale\version.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libswresample\swresample.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libswresample\version.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavformat\avformat.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavformat\avio.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavformat\version.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\base64.h \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\map \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__tree \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\iterator \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\iosfwd \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\wchar.h \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__functional_base \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\type_traits \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\typeinfo \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\exception \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\cstddef \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\cstdlib \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\version \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\cstdint \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\new \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\utility \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__tuple \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\initializer_list \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\cstring \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__debug \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\memory \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\limits \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\tuple \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\stdexcept \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\cassert \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\atomic \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\algorithm \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\functional \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\bit \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__node_handle \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\optional \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\string \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\string_view \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__string \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\cstdio \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\cwchar \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\cwctype \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\cctype \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\ctype.h \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\wctype.h \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\vector \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__bit_reference \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\climits \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__split_buffer \
+  D:\GAMING\workingversion\ga\app\src\main\jni\core\dpipe.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\src\rtspclient.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\client\rtspclient.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\src\rtspconf.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\core\rtspconf.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\src\dpipe.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\src\qosreport.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\client\qosreport.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\liveMedia.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG1or2AudioRTPSink.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\AudioRTPSink.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MultiFramedRTPSink.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\RTPSink.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MediaSink.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\FramedSource.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\NetCommon.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MediaSource.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\Media.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\liveMedia_version.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\HashTable.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\Boolean.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\UsageEnvironment.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\UsageEnvironment_version.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\strDup.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\RTPInterface.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\Groupsock.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\groupsock_version.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\NetInterface.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\NetAddress.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\GroupEId.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MP3ADURTPSink.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG1or2VideoRTPSink.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\VideoRTPSink.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG4ESVideoRTPSink.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\AMRAudioFileSink.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\FileSink.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H264VideoFileSink.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H264or5VideoFileSink.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H265VideoFileSink.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\OggFileSink.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\BasicUDPSink.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\GSMAudioRTPSink.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H263plusVideoRTPSink.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H264VideoRTPSink.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H264or5VideoRTPSink.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\FramedFilter.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H265VideoRTPSink.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\DVVideoRTPSource.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MultiFramedRTPSource.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\RTPSource.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\DVVideoRTPSink.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\DVVideoStreamFramer.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H264VideoStreamFramer.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H264or5VideoStreamFramer.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEGVideoStreamFramer.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H265VideoStreamFramer.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H264VideoStreamDiscreteFramer.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H264or5VideoStreamDiscreteFramer.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H265VideoStreamDiscreteFramer.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\JPEGVideoRTPSink.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\SimpleRTPSink.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\uLawAudioFilter.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG2IndexFromTransportStream.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG2TransportStreamTrickModeFilter.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG2TransportStreamIndexFile.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\ByteStreamMultiFileSource.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\ByteStreamFileSource.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\FramedFileSource.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\ByteStreamMemoryBufferSource.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\BasicUDPSource.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\SimpleRTPSource.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG1or2AudioRTPSource.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG4LATMAudioRTPSource.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG4LATMAudioRTPSink.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG4ESVideoRTPSource.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG4GenericRTPSource.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MP3ADURTPSource.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\QCELPAudioRTPSource.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\AMRAudioRTPSource.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\AMRAudioSource.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\JPEGVideoRTPSource.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\JPEGVideoSource.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG1or2VideoRTPSource.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\VorbisAudioRTPSource.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\TheoraVideoRTPSource.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\VP8VideoRTPSource.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\VP9VideoRTPSource.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG2TransportStreamFromPESSource.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG2TransportStreamMultiplexor.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG1or2Demux.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG1or2DemuxedElementaryStream.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG2TransportStreamFromESSource.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG2TransportStreamFramer.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\ADTSAudioFileSource.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H261VideoRTPSource.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H263plusVideoRTPSource.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H264VideoRTPSource.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H265VideoRTPSource.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MP3FileSource.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MP3ADU.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MP3ADUinterleaving.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MP3Transcoder.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MP3ADUTranscoder.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG1or2AudioStreamFramer.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H263plusVideoStreamFramer.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\AC3AudioStreamFramer.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\AC3AudioRTPSource.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\AC3AudioRTPSink.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\VorbisAudioRTPSink.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\TheoraVideoRTPSink.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\VP8VideoRTPSink.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\VP9VideoRTPSink.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG4GenericRTPSink.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG1or2VideoStreamDiscreteFramer.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG1or2VideoStreamFramer.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG4VideoStreamDiscreteFramer.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG4VideoStreamFramer.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\DeviceSource.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\AudioInputDevice.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\WAVAudioFileSource.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\StreamReplicator.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\RTSPRegisterSender.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\RTSPClient.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MediaSession.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\RTCP.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\DigestAuthentication.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\RTSPServer.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\ServerMediaSession.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\RTSPServerSupportingHTTPStreaming.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\TCPStreamSink.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\SIPClient.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\QuickTimeFileSink.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\QuickTimeGenericRTPSource.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\AVIFileSink.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\PassiveServerMediaSubsession.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG4VideoFileServerMediaSubsession.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\FileServerMediaSubsession.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\OnDemandServerMediaSubsession.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H264VideoFileServerMediaSubsession.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H265VideoFileServerMediaSubsession.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\WAVAudioFileServerMediaSubsession.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\AMRAudioFileServerMediaSubsession.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\AMRAudioFileSource.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\AMRAudioRTPSink.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\T140TextRTPSink.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\TextRTPSink.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MP3AudioFileServerMediaSubsession.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG1or2VideoFileServerMediaSubsession.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG1or2FileServerDemux.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG2TransportFileServerMediaSubsession.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H263plusVideoFileServerMediaSubsession.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\ADTSAudioFileServerMediaSubsession.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\DVVideoFileServerMediaSubsession.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\AC3AudioFileServerMediaSubsession.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG2TransportUDPServerMediaSubsession.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MatroskaFileServerDemux.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MatroskaFile.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\OggFileServerDemux.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\OggFile.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\ProxyServerMediaSession.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\DarwinInjector.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\BasicUsageEnvironment.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\BasicUsageEnvironment0.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\BasicUsageEnvironment_version.hh \
+  D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\DelayQueue.hh
+
+D:\GAMING\workingversion\ga\app\src\main\jni\client\qosreport.cpp:
+
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\stdio.h:
+
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__config:
+
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\string.h:
+
+D:\GAMING\workingversion\ga\app\src\main\jni\src\ga-common.h:
+
+D:\GAMING\workingversion\ga\app\src\main\jni\core\ga-common.h:
+
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavcodec\avcodec.h:
+
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\errno.h:
+
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\samplefmt.h:
+
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\stdint.h:
+
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\avutil.h:
+
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\common.h:
+
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\inttypes.h:
+
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\limits.h:
+
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\math.h:
+
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\stdlib.h:
+
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\attributes.h:
+
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\version.h:
+
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\macros.h:
+
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\avconfig.h:
+
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\mem.h:
+
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\error.h:
+
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\stddef.h:
+
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\rational.h:
+
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\mathematics.h:
+
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\intfloat.h:
+
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\log.h:
+
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\pixfmt.h:
+
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\old_pix_fmts.h:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/stddef.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\buffer.h:
 
-jni/armeabi-v7a/include/libavutil/rational.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\cpu.h:
 
-jni/armeabi-v7a/include/libavutil/mathematics.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\channel_layout.h:
 
-jni/armeabi-v7a/include/libavutil/intfloat.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\dict.h:
 
-jni/armeabi-v7a/include/libavutil/log.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\frame.h:
 
-jni/armeabi-v7a/include/libavutil/pixfmt.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavcodec\version.h:
 
-jni/armeabi-v7a/include/libavutil/old_pix_fmts.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavcodec\old_codec_ids.h:
 
-jni/armeabi-v7a/include/libavutil/buffer.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\core\ga-win32.h:
 
-jni/armeabi-v7a/include/libavutil/cpu.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\src\vsource.h:
 
-jni/armeabi-v7a/include/libavutil/channel_layout.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\core\vsource.h:
 
-jni/armeabi-v7a/include/libavutil/dict.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\core\ga-avcodec.h:
 
-jni/armeabi-v7a/include/libavutil/frame.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libswscale\swscale.h:
 
-jni/armeabi-v7a/include/libavcodec/version.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libswscale\version.h:
 
-jni/armeabi-v7a/include/libavcodec/old_codec_ids.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libswresample\swresample.h:
 
-jni/core/ga-win32.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libswresample\version.h:
 
-jni/src/vsource.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavformat\avformat.h:
 
-jni/core/vsource.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavformat\avio.h:
 
-jni/core/ga-avcodec.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavformat\version.h:
 
-jni/armeabi-v7a/include/libswscale/swscale.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\libavutil\base64.h:
 
-jni/armeabi-v7a/include/libswscale/version.h:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\map:
 
-jni/armeabi-v7a/include/libswresample/swresample.h:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__tree:
 
-jni/armeabi-v7a/include/libswresample/version.h:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\iterator:
 
-jni/armeabi-v7a/include/libavformat/avformat.h:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\iosfwd:
 
-jni/armeabi-v7a/include/libavformat/avio.h:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\wchar.h:
 
-jni/armeabi-v7a/include/libavformat/version.h:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__functional_base:
 
-jni/armeabi-v7a/include/libavutil/base64.h:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\type_traits:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/map:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\typeinfo:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/__tree:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\exception:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/iterator:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\cstddef:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/iosfwd:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\cstdlib:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/wchar.h:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\version:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/__functional_base:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\cstdint:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/typeinfo:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\new:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/exception:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\utility:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/cstdlib:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__tuple:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/cstdint:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\initializer_list:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/new:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\cstring:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/utility:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__debug:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/__tuple:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\memory:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/initializer_list:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\limits:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/cstring:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\tuple:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/__debug:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\stdexcept:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/memory:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\cassert:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/tuple:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\atomic:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/stdexcept:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\algorithm:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/cassert:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\functional:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/atomic:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\bit:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/algorithm:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__node_handle:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/functional:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\optional:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/string:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\string:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/string_view:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\string_view:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/__string:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__string:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/cstdio:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\cstdio:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/cwchar:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\cwchar:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/cwctype:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\cwctype:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/cctype:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\cctype:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/ctype.h:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\ctype.h:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/wctype.h:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\wctype.h:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/vector:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\vector:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/__bit_reference:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__bit_reference:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/climits:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\climits:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/__split_buffer:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__split_buffer:
 
-jni/core/dpipe.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\core\dpipe.h:
 
-jni/src/rtspclient.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\src\rtspclient.h:
 
-jni/client/rtspclient.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\client\rtspclient.h:
 
-jni/src/rtspconf.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\src\rtspconf.h:
 
-jni/core/rtspconf.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\core\rtspconf.h:
 
-jni/src/dpipe.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\src\dpipe.h:
 
-jni/src/qosreport.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\src\qosreport.h:
 
-jni/client/qosreport.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\client\qosreport.h:
 
-jni/armeabi-v7a/include/live555/liveMedia.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\liveMedia.hh:
 
-jni/armeabi-v7a/include/live555/MPEG1or2AudioRTPSink.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG1or2AudioRTPSink.hh:
 
-jni/armeabi-v7a/include/live555/AudioRTPSink.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\AudioRTPSink.hh:
 
-jni/armeabi-v7a/include/live555/MultiFramedRTPSink.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MultiFramedRTPSink.hh:
 
-jni/armeabi-v7a/include/live555/RTPSink.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\RTPSink.hh:
 
-jni/armeabi-v7a/include/live555/MediaSink.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MediaSink.hh:
 
-jni/armeabi-v7a/include/live555/FramedSource.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\FramedSource.hh:
 
-jni/armeabi-v7a/include/live555/NetCommon.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\NetCommon.h:
 
-jni/armeabi-v7a/include/live555/MediaSource.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MediaSource.hh:
 
-jni/armeabi-v7a/include/live555/Media.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\Media.hh:
 
-jni/armeabi-v7a/include/live555/liveMedia_version.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\liveMedia_version.hh:
 
-jni/armeabi-v7a/include/live555/HashTable.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\HashTable.hh:
 
-jni/armeabi-v7a/include/live555/Boolean.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\Boolean.hh:
 
-jni/armeabi-v7a/include/live555/UsageEnvironment.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\UsageEnvironment.hh:
 
-jni/armeabi-v7a/include/live555/UsageEnvironment_version.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\UsageEnvironment_version.hh:
 
-jni/armeabi-v7a/include/live555/strDup.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\strDup.hh:
 
-jni/armeabi-v7a/include/live555/RTPInterface.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\RTPInterface.hh:
 
-jni/armeabi-v7a/include/live555/Groupsock.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\Groupsock.hh:
 
-jni/armeabi-v7a/include/live555/groupsock_version.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\groupsock_version.hh:
 
-jni/armeabi-v7a/include/live555/NetInterface.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\NetInterface.hh:
 
-jni/armeabi-v7a/include/live555/NetAddress.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\NetAddress.hh:
 
-jni/armeabi-v7a/include/live555/GroupEId.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\GroupEId.hh:
 
-jni/armeabi-v7a/include/live555/MP3ADURTPSink.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MP3ADURTPSink.hh:
 
-jni/armeabi-v7a/include/live555/MPEG1or2VideoRTPSink.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG1or2VideoRTPSink.hh:
 
-jni/armeabi-v7a/include/live555/VideoRTPSink.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\VideoRTPSink.hh:
 
-jni/armeabi-v7a/include/live555/MPEG4ESVideoRTPSink.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG4ESVideoRTPSink.hh:
 
-jni/armeabi-v7a/include/live555/AMRAudioFileSink.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\AMRAudioFileSink.hh:
 
-jni/armeabi-v7a/include/live555/FileSink.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\FileSink.hh:
 
-jni/armeabi-v7a/include/live555/H264VideoFileSink.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H264VideoFileSink.hh:
 
-jni/armeabi-v7a/include/live555/H264or5VideoFileSink.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H264or5VideoFileSink.hh:
 
-jni/armeabi-v7a/include/live555/H265VideoFileSink.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H265VideoFileSink.hh:
 
-jni/armeabi-v7a/include/live555/OggFileSink.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\OggFileSink.hh:
 
-jni/armeabi-v7a/include/live555/BasicUDPSink.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\BasicUDPSink.hh:
 
-jni/armeabi-v7a/include/live555/GSMAudioRTPSink.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\GSMAudioRTPSink.hh:
 
-jni/armeabi-v7a/include/live555/H263plusVideoRTPSink.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H263plusVideoRTPSink.hh:
 
-jni/armeabi-v7a/include/live555/H264VideoRTPSink.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H264VideoRTPSink.hh:
 
-jni/armeabi-v7a/include/live555/H264or5VideoRTPSink.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H264or5VideoRTPSink.hh:
 
-jni/armeabi-v7a/include/live555/FramedFilter.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\FramedFilter.hh:
 
-jni/armeabi-v7a/include/live555/H265VideoRTPSink.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H265VideoRTPSink.hh:
 
-jni/armeabi-v7a/include/live555/DVVideoRTPSource.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\DVVideoRTPSource.hh:
 
-jni/armeabi-v7a/include/live555/MultiFramedRTPSource.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MultiFramedRTPSource.hh:
 
-jni/armeabi-v7a/include/live555/RTPSource.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\RTPSource.hh:
 
-jni/armeabi-v7a/include/live555/DVVideoRTPSink.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\DVVideoRTPSink.hh:
 
-jni/armeabi-v7a/include/live555/DVVideoStreamFramer.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\DVVideoStreamFramer.hh:
 
-jni/armeabi-v7a/include/live555/H264VideoStreamFramer.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H264VideoStreamFramer.hh:
 
-jni/armeabi-v7a/include/live555/H264or5VideoStreamFramer.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H264or5VideoStreamFramer.hh:
 
-jni/armeabi-v7a/include/live555/MPEGVideoStreamFramer.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEGVideoStreamFramer.hh:
 
-jni/armeabi-v7a/include/live555/H265VideoStreamFramer.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H265VideoStreamFramer.hh:
 
-jni/armeabi-v7a/include/live555/H264VideoStreamDiscreteFramer.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H264VideoStreamDiscreteFramer.hh:
 
-jni/armeabi-v7a/include/live555/H264or5VideoStreamDiscreteFramer.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H264or5VideoStreamDiscreteFramer.hh:
 
-jni/armeabi-v7a/include/live555/H265VideoStreamDiscreteFramer.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H265VideoStreamDiscreteFramer.hh:
 
-jni/armeabi-v7a/include/live555/JPEGVideoRTPSink.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\JPEGVideoRTPSink.hh:
 
-jni/armeabi-v7a/include/live555/SimpleRTPSink.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\SimpleRTPSink.hh:
 
-jni/armeabi-v7a/include/live555/uLawAudioFilter.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\uLawAudioFilter.hh:
 
-jni/armeabi-v7a/include/live555/MPEG2IndexFromTransportStream.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG2IndexFromTransportStream.hh:
 
-jni/armeabi-v7a/include/live555/MPEG2TransportStreamTrickModeFilter.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG2TransportStreamTrickModeFilter.hh:
 
-jni/armeabi-v7a/include/live555/MPEG2TransportStreamIndexFile.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG2TransportStreamIndexFile.hh:
 
-jni/armeabi-v7a/include/live555/ByteStreamMultiFileSource.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\ByteStreamMultiFileSource.hh:
 
-jni/armeabi-v7a/include/live555/ByteStreamFileSource.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\ByteStreamFileSource.hh:
 
-jni/armeabi-v7a/include/live555/FramedFileSource.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\FramedFileSource.hh:
 
-jni/armeabi-v7a/include/live555/ByteStreamMemoryBufferSource.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\ByteStreamMemoryBufferSource.hh:
 
-jni/armeabi-v7a/include/live555/BasicUDPSource.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\BasicUDPSource.hh:
 
-jni/armeabi-v7a/include/live555/SimpleRTPSource.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\SimpleRTPSource.hh:
 
-jni/armeabi-v7a/include/live555/MPEG1or2AudioRTPSource.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG1or2AudioRTPSource.hh:
 
-jni/armeabi-v7a/include/live555/MPEG4LATMAudioRTPSource.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG4LATMAudioRTPSource.hh:
 
-jni/armeabi-v7a/include/live555/MPEG4LATMAudioRTPSink.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG4LATMAudioRTPSink.hh:
 
-jni/armeabi-v7a/include/live555/MPEG4ESVideoRTPSource.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG4ESVideoRTPSource.hh:
 
-jni/armeabi-v7a/include/live555/MPEG4GenericRTPSource.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG4GenericRTPSource.hh:
 
-jni/armeabi-v7a/include/live555/MP3ADURTPSource.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MP3ADURTPSource.hh:
 
-jni/armeabi-v7a/include/live555/QCELPAudioRTPSource.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\QCELPAudioRTPSource.hh:
 
-jni/armeabi-v7a/include/live555/AMRAudioRTPSource.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\AMRAudioRTPSource.hh:
 
-jni/armeabi-v7a/include/live555/AMRAudioSource.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\AMRAudioSource.hh:
 
-jni/armeabi-v7a/include/live555/JPEGVideoRTPSource.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\JPEGVideoRTPSource.hh:
 
-jni/armeabi-v7a/include/live555/JPEGVideoSource.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\JPEGVideoSource.hh:
 
-jni/armeabi-v7a/include/live555/MPEG1or2VideoRTPSource.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG1or2VideoRTPSource.hh:
 
-jni/armeabi-v7a/include/live555/VorbisAudioRTPSource.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\VorbisAudioRTPSource.hh:
 
-jni/armeabi-v7a/include/live555/TheoraVideoRTPSource.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\TheoraVideoRTPSource.hh:
 
-jni/armeabi-v7a/include/live555/VP8VideoRTPSource.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\VP8VideoRTPSource.hh:
 
-jni/armeabi-v7a/include/live555/VP9VideoRTPSource.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\VP9VideoRTPSource.hh:
 
-jni/armeabi-v7a/include/live555/MPEG2TransportStreamFromPESSource.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG2TransportStreamFromPESSource.hh:
 
-jni/armeabi-v7a/include/live555/MPEG2TransportStreamMultiplexor.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG2TransportStreamMultiplexor.hh:
 
-jni/armeabi-v7a/include/live555/MPEG1or2Demux.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG1or2Demux.hh:
 
-jni/armeabi-v7a/include/live555/MPEG1or2DemuxedElementaryStream.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG1or2DemuxedElementaryStream.hh:
 
-jni/armeabi-v7a/include/live555/MPEG2TransportStreamFromESSource.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG2TransportStreamFromESSource.hh:
 
-jni/armeabi-v7a/include/live555/MPEG2TransportStreamFramer.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG2TransportStreamFramer.hh:
 
-jni/armeabi-v7a/include/live555/ADTSAudioFileSource.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\ADTSAudioFileSource.hh:
 
-jni/armeabi-v7a/include/live555/H261VideoRTPSource.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H261VideoRTPSource.hh:
 
-jni/armeabi-v7a/include/live555/H263plusVideoRTPSource.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H263plusVideoRTPSource.hh:
 
-jni/armeabi-v7a/include/live555/H264VideoRTPSource.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H264VideoRTPSource.hh:
 
-jni/armeabi-v7a/include/live555/H265VideoRTPSource.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H265VideoRTPSource.hh:
 
-jni/armeabi-v7a/include/live555/MP3FileSource.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MP3FileSource.hh:
 
-jni/armeabi-v7a/include/live555/MP3ADU.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MP3ADU.hh:
 
-jni/armeabi-v7a/include/live555/MP3ADUinterleaving.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MP3ADUinterleaving.hh:
 
-jni/armeabi-v7a/include/live555/MP3Transcoder.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MP3Transcoder.hh:
 
-jni/armeabi-v7a/include/live555/MP3ADUTranscoder.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MP3ADUTranscoder.hh:
 
-jni/armeabi-v7a/include/live555/MPEG1or2AudioStreamFramer.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG1or2AudioStreamFramer.hh:
 
-jni/armeabi-v7a/include/live555/H263plusVideoStreamFramer.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H263plusVideoStreamFramer.hh:
 
-jni/armeabi-v7a/include/live555/AC3AudioStreamFramer.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\AC3AudioStreamFramer.hh:
 
-jni/armeabi-v7a/include/live555/AC3AudioRTPSource.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\AC3AudioRTPSource.hh:
 
-jni/armeabi-v7a/include/live555/AC3AudioRTPSink.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\AC3AudioRTPSink.hh:
 
-jni/armeabi-v7a/include/live555/VorbisAudioRTPSink.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\VorbisAudioRTPSink.hh:
 
-jni/armeabi-v7a/include/live555/TheoraVideoRTPSink.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\TheoraVideoRTPSink.hh:
 
-jni/armeabi-v7a/include/live555/VP8VideoRTPSink.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\VP8VideoRTPSink.hh:
 
-jni/armeabi-v7a/include/live555/VP9VideoRTPSink.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\VP9VideoRTPSink.hh:
 
-jni/armeabi-v7a/include/live555/MPEG4GenericRTPSink.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG4GenericRTPSink.hh:
 
-jni/armeabi-v7a/include/live555/MPEG1or2VideoStreamDiscreteFramer.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG1or2VideoStreamDiscreteFramer.hh:
 
-jni/armeabi-v7a/include/live555/MPEG1or2VideoStreamFramer.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG1or2VideoStreamFramer.hh:
 
-jni/armeabi-v7a/include/live555/MPEG4VideoStreamDiscreteFramer.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG4VideoStreamDiscreteFramer.hh:
 
-jni/armeabi-v7a/include/live555/MPEG4VideoStreamFramer.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG4VideoStreamFramer.hh:
 
-jni/armeabi-v7a/include/live555/DeviceSource.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\DeviceSource.hh:
 
-jni/armeabi-v7a/include/live555/AudioInputDevice.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\AudioInputDevice.hh:
 
-jni/armeabi-v7a/include/live555/WAVAudioFileSource.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\WAVAudioFileSource.hh:
 
-jni/armeabi-v7a/include/live555/StreamReplicator.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\StreamReplicator.hh:
 
-jni/armeabi-v7a/include/live555/RTSPRegisterSender.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\RTSPRegisterSender.hh:
 
-jni/armeabi-v7a/include/live555/RTSPClient.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\RTSPClient.hh:
 
-jni/armeabi-v7a/include/live555/MediaSession.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MediaSession.hh:
 
-jni/armeabi-v7a/include/live555/RTCP.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\RTCP.hh:
 
-jni/armeabi-v7a/include/live555/DigestAuthentication.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\DigestAuthentication.hh:
 
-jni/armeabi-v7a/include/live555/RTSPServer.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\RTSPServer.hh:
 
-jni/armeabi-v7a/include/live555/ServerMediaSession.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\ServerMediaSession.hh:
 
-jni/armeabi-v7a/include/live555/RTSPServerSupportingHTTPStreaming.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\RTSPServerSupportingHTTPStreaming.hh:
 
-jni/armeabi-v7a/include/live555/TCPStreamSink.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\TCPStreamSink.hh:
 
-jni/armeabi-v7a/include/live555/SIPClient.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\SIPClient.hh:
 
-jni/armeabi-v7a/include/live555/QuickTimeFileSink.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\QuickTimeFileSink.hh:
 
-jni/armeabi-v7a/include/live555/QuickTimeGenericRTPSource.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\QuickTimeGenericRTPSource.hh:
 
-jni/armeabi-v7a/include/live555/AVIFileSink.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\AVIFileSink.hh:
 
-jni/armeabi-v7a/include/live555/PassiveServerMediaSubsession.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\PassiveServerMediaSubsession.hh:
 
-jni/armeabi-v7a/include/live555/MPEG4VideoFileServerMediaSubsession.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG4VideoFileServerMediaSubsession.hh:
 
-jni/armeabi-v7a/include/live555/FileServerMediaSubsession.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\FileServerMediaSubsession.hh:
 
-jni/armeabi-v7a/include/live555/OnDemandServerMediaSubsession.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\OnDemandServerMediaSubsession.hh:
 
-jni/armeabi-v7a/include/live555/H264VideoFileServerMediaSubsession.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H264VideoFileServerMediaSubsession.hh:
 
-jni/armeabi-v7a/include/live555/H265VideoFileServerMediaSubsession.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H265VideoFileServerMediaSubsession.hh:
 
-jni/armeabi-v7a/include/live555/WAVAudioFileServerMediaSubsession.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\WAVAudioFileServerMediaSubsession.hh:
 
-jni/armeabi-v7a/include/live555/AMRAudioFileServerMediaSubsession.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\AMRAudioFileServerMediaSubsession.hh:
 
-jni/armeabi-v7a/include/live555/AMRAudioFileSource.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\AMRAudioFileSource.hh:
 
-jni/armeabi-v7a/include/live555/AMRAudioRTPSink.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\AMRAudioRTPSink.hh:
 
-jni/armeabi-v7a/include/live555/T140TextRTPSink.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\T140TextRTPSink.hh:
 
-jni/armeabi-v7a/include/live555/TextRTPSink.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\TextRTPSink.hh:
 
-jni/armeabi-v7a/include/live555/MP3AudioFileServerMediaSubsession.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MP3AudioFileServerMediaSubsession.hh:
 
-jni/armeabi-v7a/include/live555/MPEG1or2VideoFileServerMediaSubsession.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG1or2VideoFileServerMediaSubsession.hh:
 
-jni/armeabi-v7a/include/live555/MPEG1or2FileServerDemux.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG1or2FileServerDemux.hh:
 
-jni/armeabi-v7a/include/live555/MPEG2TransportFileServerMediaSubsession.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG2TransportFileServerMediaSubsession.hh:
 
-jni/armeabi-v7a/include/live555/H263plusVideoFileServerMediaSubsession.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\H263plusVideoFileServerMediaSubsession.hh:
 
-jni/armeabi-v7a/include/live555/ADTSAudioFileServerMediaSubsession.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\ADTSAudioFileServerMediaSubsession.hh:
 
-jni/armeabi-v7a/include/live555/DVVideoFileServerMediaSubsession.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\DVVideoFileServerMediaSubsession.hh:
 
-jni/armeabi-v7a/include/live555/AC3AudioFileServerMediaSubsession.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\AC3AudioFileServerMediaSubsession.hh:
 
-jni/armeabi-v7a/include/live555/MPEG2TransportUDPServerMediaSubsession.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MPEG2TransportUDPServerMediaSubsession.hh:
 
-jni/armeabi-v7a/include/live555/MatroskaFileServerDemux.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MatroskaFileServerDemux.hh:
 
-jni/armeabi-v7a/include/live555/MatroskaFile.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\MatroskaFile.hh:
 
-jni/armeabi-v7a/include/live555/OggFileServerDemux.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\OggFileServerDemux.hh:
 
-jni/armeabi-v7a/include/live555/OggFile.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\OggFile.hh:
 
-jni/armeabi-v7a/include/live555/ProxyServerMediaSession.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\ProxyServerMediaSession.hh:
 
-jni/armeabi-v7a/include/live555/DarwinInjector.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\DarwinInjector.hh:
 
-jni/armeabi-v7a/include/live555/BasicUsageEnvironment.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\BasicUsageEnvironment.hh:
 
-jni/armeabi-v7a/include/live555/BasicUsageEnvironment0.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\BasicUsageEnvironment0.hh:
 
-jni/armeabi-v7a/include/live555/BasicUsageEnvironment_version.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\BasicUsageEnvironment_version.hh:
 
-jni/armeabi-v7a/include/live555/DelayQueue.hh:
+D:\GAMING\workingversion\ga\app\src\main\jni\armeabi-v7a\include\live555\DelayQueue.hh:

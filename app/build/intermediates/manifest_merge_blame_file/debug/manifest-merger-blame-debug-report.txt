@@ -5,63 +5,69 @@
 5    android:versionName="0.1" >
 6
 7    <uses-sdk
-7-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:7:5-9:41
-8        android:minSdkVersion="16"
-8-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:8:9-35
-9        android:targetSdkVersion="16" />
-9-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:9:9-38
+7-->D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:8:5-10:41
+8        android:minSdkVersion="23"
+8-->D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:9:9-35
+9        android:targetSdkVersion="30" />
+9-->D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:10:9-38
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:10:5-66
-11-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:10:22-64
+11-->D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:11:5-66
+11-->D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:11:22-64
 12    <uses-permission android:name="android.permission.WAKE_LOCK" />
-12-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:11:5-67
-12-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:11:22-65
-13
-14    <application
-14-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:13:5-35:19
-15        android:allowBackup="true"
-15-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:14:9-35
-16        android:debuggable="true"
-17        android:icon="@drawable/ic_launcher"
-17-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:15:9-45
-18        android:label="@string/app_name"
-18-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:16:9-41
-19        android:testOnly="true"
-20        android:theme="@style/AppTheme" >
-20-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:17:9-40
-21        <activity
-21-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:18:9-26:20
-22            android:name="org.gaminganywhere.gaclient.MainActivity"
-22-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:19:13-68
-23            android:label="@string/app_name" >
-23-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:20:13-45
-24            <intent-filter>
-24-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:21:13-25:29
-25                <action android:name="android.intent.action.MAIN" />
-25-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:22:17-69
-25-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:22:25-66
-26
-27                <category android:name="android.intent.category.LAUNCHER" />
-27-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:24:17-77
-27-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:24:27-74
-28            </intent-filter>
-29        </activity>
-30        <activity android:name="org.gaminganywhere.gaclient.SettingsActivity" >
-30-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:27:9-28:20
-30-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:27:19-78
-31        </activity>
-32        <activity
-32-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:29:9-34:20
-33            android:name="org.gaminganywhere.gaclient.PlayerActivity"
-33-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:30:13-70
-34            android:configChanges="orientation|keyboardHidden|screenSize"
-34-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:31:13-74
-35            android:label="@string/title_activity_player"
-35-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:32:13-58
-36            android:theme="@style/FullscreenTheme" >
-36-->/Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:33:13-51
-37        </activity>
-38    </application>
-39
-40</manifest>
+12-->D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:12:5-67
+12-->D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:12:22-65
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:13:5-78
+13-->D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:13:22-76
+14
+15    <application
+15-->D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:15:5-38:19
+16        android:allowBackup="true"
+16-->D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:16:9-35
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:hardwareAccelerated="true"
+19-->D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:20:9-43
+20        android:icon="@drawable/ic_launcher"
+20-->D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:17:9-45
+21        android:label="@string/app_name"
+21-->D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:18:9-41
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme" >
+23-->D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:19:9-40
+24        <activity
+24-->D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:21:9-29:20
+25            android:name="org.gaminganywhere.gaclient.MainActivity"
+25-->D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:22:13-68
+26            android:label="@string/app_name" >
+26-->D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:23:13-45
+27            <intent-filter>
+27-->D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:24:13-28:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:25:17-69
+28-->D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:25:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:27:17-77
+30-->D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:27:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity android:name="org.gaminganywhere.gaclient.SettingsActivity" >
+33-->D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:30:9-31:20
+33-->D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:30:19-78
+34        </activity>
+35        <activity
+35-->D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:32:9-37:20
+36            android:name="org.gaminganywhere.gaclient.PlayerActivity"
+36-->D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:33:13-70
+37            android:configChanges="orientation|keyboardHidden|screenSize"
+37-->D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:34:13-74
+38            android:label="@string/title_activity_player"
+38-->D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:35:13-58
+39            android:theme="@style/FullscreenTheme" >
+39-->D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:36:13-51
+40        </activity>
+41    </application>
+42
+43</manifest>

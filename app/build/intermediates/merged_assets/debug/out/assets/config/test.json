@@ -1,0 +1,20 @@
+[
+    {
+        setting: 'profile-name',
+        value: 'default',
+        settings: [
+            {   
+                type: 'section-headline',
+                value: 'Server Settings'
+            },
+            {
+                type: 'checkbox-slider',
+                setting: 'drop-late-video-frame',
+                value: false,
+                threshold: 100,
+                label: 'Drop late video frame',
+                description: 'Drop frames, when they are not delivered in time or just partly by the server.'
+            }
+        ]
+    }
+]

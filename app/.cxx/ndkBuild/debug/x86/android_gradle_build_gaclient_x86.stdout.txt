@@ -1,0 +1,8 @@
+[x86] Prebuilt       : libmp3lame.so <= D:/GAMING/workingversion/ga/app/src/main/jni/x86/lib/
+[x86] Prebuilt       : libopus.so <= D:/GAMING/workingversion/ga/app/src/main/jni/x86/lib/
+[x86] Prebuilt       : libogg.so <= D:/GAMING/workingversion/ga/app/src/main/jni/x86/lib/
+[x86] Prebuilt       : libvorbis.so <= D:/GAMING/workingversion/ga/app/src/main/jni/x86/lib/
+[x86] Prebuilt       : libvorbisenc.so <= D:/GAMING/workingversion/ga/app/src/main/jni/x86/lib/
+[x86] Prebuilt       : libvorbisfile.so <= D:/GAMING/workingversion/ga/app/src/main/jni/x86/lib/
+[x86] Prebuilt       : libx264.so <= D:/GAMING/workingversion/ga/app/src/main/jni/x86/lib/
+[x86] Prebuilt       : libgnustl_shared.so <= <NDK>/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/

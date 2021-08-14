@@ -120,10 +120,10 @@ public class SettingsActivity extends PreferenceActivity {
 					okmsg = "Profile '" + currProfile + "' updated";
 					failmsg = "Profile '" + currProfile + "' update failed";
 				}
-				if(fragment.profileSave())
-					showToast(okmsg);
-				else
-					showToast(failmsg);
+//				if(fragment.profileSave())
+//					showToast(okmsg);
+//				else
+//					showToast(failmsg);
 				goBack();
 			}
 		});

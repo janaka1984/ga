@@ -1,0 +1,11 @@
+{
+  "ndkVersionFromDsl": "16_1_4479499",
+  "ndkDirProperty": "C:\\Users\\janaka_w\\AppData\\Local\\Android\\Sdk\\ndk\\16_1_4479499",
+  "sdkFolder": "C:\\Users\\janaka_w\\AppData\\Local\\Android\\Sdk",
+  "sideBySideNdkFolderNames": [
+    "16_1_4479499",
+    "21.1.6352462",
+    "android-ndk-r16b",
+    "android-ndk-r16b-32"
+  ]
+}

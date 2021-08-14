@@ -1,92 +1,113 @@
-./obj/local/x86/objs/gaclient/src/ctrl-msg.o: jni/src/ctrl-msg.cpp \
-  jni/core/ctrl-msg.cpp \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/stdio.h \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/__config \
-  jni/core/ga-common.h jni/x86/include/libavcodec/avcodec.h \
-  jni/x86/include/libavutil/samplefmt.h \
-  jni/x86/include/libavutil/avutil.h jni/x86/include/libavutil/common.h \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/inttypes.h \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/math.h \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/stdlib.h \
-  jni/x86/include/libavutil/attributes.h \
-  jni/x86/include/libavutil/version.h jni/x86/include/libavutil/macros.h \
-  jni/x86/include/libavutil/avconfig.h jni/x86/include/libavutil/mem.h \
-  jni/x86/include/libavutil/error.h \
-  /Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/stddef.h \
-  jni/x86/include/libavutil/rational.h \
-  jni/x86/include/libavutil/mathematics.h \
-  jni/x86/include/libavutil/intfloat.h jni/x86/include/libavutil/log.h \
-  jni/x86/include/libavutil/pixfmt.h \
-  jni/x86/include/libavutil/old_pix_fmts.h \
-  jni/x86/include/libavutil/buffer.h jni/x86/include/libavutil/cpu.h \
-  jni/x86/include/libavutil/channel_layout.h \
-  jni/x86/include/libavutil/dict.h jni/x86/include/libavutil/frame.h \
-  jni/x86/include/libavcodec/version.h \
-  jni/x86/include/libavcodec/old_codec_ids.h jni/core/ga-win32.h \
-  jni/core/ctrl-msg.h
+D:/GAMING/workingversion/ga/app/src/main/obj/local/x86/objs/gaclient/src/ctrl-msg.o: \
+  D:\GAMING\workingversion\ga\app\src\main\jni\src\ctrl-msg.cpp \
+  D:\GAMING\workingversion\ga\app\src\main\jni\core\ctrl-msg.cpp \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\stdio.h \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__config \
+  D:\GAMING\workingversion\ga\app\src\main\jni\core\ga-common.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavcodec\avcodec.h \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\errno.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\samplefmt.h \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\stdint.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\avutil.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\common.h \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\inttypes.h \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\limits.h \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\math.h \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\stdlib.h \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\string.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\attributes.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\version.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\macros.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\avconfig.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\mem.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\error.h \
+  C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\stddef.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\rational.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\mathematics.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\intfloat.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\log.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\pixfmt.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\old_pix_fmts.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\buffer.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\cpu.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\channel_layout.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\dict.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\frame.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavcodec\version.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavcodec\old_codec_ids.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\core\ga-win32.h \
+  D:\GAMING\workingversion\ga\app\src\main\jni\core\ctrl-msg.h
 
-jni/core/ctrl-msg.cpp:
+D:\GAMING\workingversion\ga\app\src\main\jni\core\ctrl-msg.cpp:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/stdio.h:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\stdio.h:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/__config:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\__config:
 
-jni/core/ga-common.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\core\ga-common.h:
 
-jni/x86/include/libavcodec/avcodec.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavcodec\avcodec.h:
 
-jni/x86/include/libavutil/samplefmt.h:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\errno.h:
 
-jni/x86/include/libavutil/avutil.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\samplefmt.h:
 
-jni/x86/include/libavutil/common.h:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\stdint.h:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/inttypes.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\avutil.h:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/math.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\common.h:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/stdlib.h:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\inttypes.h:
 
-jni/x86/include/libavutil/attributes.h:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\limits.h:
 
-jni/x86/include/libavutil/version.h:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\math.h:
 
-jni/x86/include/libavutil/macros.h:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\stdlib.h:
 
-jni/x86/include/libavutil/avconfig.h:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\string.h:
 
-jni/x86/include/libavutil/mem.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\attributes.h:
 
-jni/x86/include/libavutil/error.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\version.h:
 
-/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/include/stddef.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\macros.h:
 
-jni/x86/include/libavutil/rational.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\avconfig.h:
 
-jni/x86/include/libavutil/mathematics.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\mem.h:
 
-jni/x86/include/libavutil/intfloat.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\error.h:
 
-jni/x86/include/libavutil/log.h:
+C:\Users\janaka_w\AppData\Local\Android\Sdk\ndk-bundle\build\\..\sources\cxx-stl\llvm-libc++\include\stddef.h:
 
-jni/x86/include/libavutil/pixfmt.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\rational.h:
 
-jni/x86/include/libavutil/old_pix_fmts.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\mathematics.h:
 
-jni/x86/include/libavutil/buffer.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\intfloat.h:
 
-jni/x86/include/libavutil/cpu.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\log.h:
 
-jni/x86/include/libavutil/channel_layout.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\pixfmt.h:
 
-jni/x86/include/libavutil/dict.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\old_pix_fmts.h:
 
-jni/x86/include/libavutil/frame.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\buffer.h:
 
-jni/x86/include/libavcodec/version.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\cpu.h:
 
-jni/x86/include/libavcodec/old_codec_ids.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\channel_layout.h:
 
-jni/core/ga-win32.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\dict.h:
 
-jni/core/ctrl-msg.h:
+D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavutil\frame.h:
+
+D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavcodec\version.h:
+
+D:\GAMING\workingversion\ga\app\src\main\jni\x86\include\libavcodec\old_codec_ids.h:
+
+D:\GAMING\workingversion\ga\app\src\main\jni\core\ga-win32.h:
+
+D:\GAMING\workingversion\ga\app\src\main\jni\core\ctrl-msg.h:

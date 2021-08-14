@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'TeleNeoThin';
+    src: url('../fonts/TeleNeoWeb-Thin.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/TeleNeoWeb-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/TeleNeoWeb-Thin.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/TeleNeoWeb-Thin.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/TeleNeoWeb-Thin.svg#svgFontName') format('svg'), /* Legacy iOS */
+    url('../fonts/TeleNeoOffice-Thin.ttf') format('truetype');
+    /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'TeleNeoRegular';
+    src: url('../fonts/TeleNeoWeb-Regular.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/TeleNeoWeb-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/TeleNeoWeb-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/TeleNeoWeb-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/TeleNeoWeb-Regular.svg#svgFontName') format('svg'), /* Legacy iOS */
+    url('../fonts/TeleNeoOffice-Regular.ttf') format('truetype');
+    /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'TeleNeoMedium';
+    src: url('../fonts/TeleNeoWeb-Medium.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/TeleNeoWeb-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/TeleNeoWeb-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/TeleNeoWeb-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/TeleNeoWeb-Medium.svg#svgFontName') format('svg'), /* Legacy iOS */
+    url('../fonts/TeleNeoOffice-Medium.ttf') format('truetype');
+    /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'TeleNeoBold';
+    src: url('../fonts/TeleNeoWeb-Bold.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/TeleNeoWeb-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/TeleNeoWeb-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/TeleNeoWeb-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/TeleNeoWeb-Bold.svg#svgFontName') format('svg'), /* Legacy iOS */
+    url('../fonts/TeleNeoOffice-Bold.ttf') format('truetype');
+    /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'TeleNeoExtraBold';
+    src: url('../fonts/TeleNeoWeb-ExtraBold.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/TeleNeoWeb-ExtraBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/TeleNeoWeb-ExtraBold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/TeleNeoWeb-ExtraBold.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/TeleNeoWeb-ExtraBold.svg#svgFontName') format('svg'), /* Legacy iOS */
+    url('../fonts/TeleNeoOffice-ExtraBold.ttf') format('truetype');
+    /* Safari, Android, iOS */
+}
+
+h1, h2, h3, h4, h5, h6, strong, p, label {
+    font-family: 'TeleNeoMedium', Arial, Helvetica, sans-serif;
+    color: $white;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 140%;
+}
+
+h1 {
+    font-size: 3 * $BU;
+}
+
+h2 {
+    font-size: 2.5  * $BU;
+}
+
+h3 {
+    font-size: 2 * $BU;
+    font-family: 'TeleNeoBold', Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 16px;
+}
+
+label {
+    font-size: 2 * $BU;
+}
+
+.headline-section {
+    margin: 2rem 0 4rem 0;
+}

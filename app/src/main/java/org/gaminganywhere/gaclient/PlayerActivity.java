@@ -207,21 +207,21 @@ public class PlayerActivity extends Activity implements SurfaceHolder.Callback, 
 		// for controller placement
 		do {
 			String cname = intent.getStringExtra("controller");
-			if(cname == null) {
+			if(cname.equals(GAControllerBasic.getName().toLowerCase())) {
 				controller = new GAControllerBasic(this);
-			} else if(cname.equals(GAControllerEmpty.getName())) {
+			} else if(cname.equals(GAControllerEmpty.getName().toLowerCase())) {
 				controller = new GAControllerEmpty(this);
-			} else if(cname.equals(GAControllerDualPad.getName())) {
+			} else if(cname.equals(GAControllerDualPad.getName().toLowerCase())) {
 				controller = new GAControllerDualPad(this);
-			} else if(cname.equals(GAControllerLimbo.getName())){
+			} else if(cname.equals(GAControllerLimbo.getName().toLowerCase())){
 				controller = new GAControllerLimbo(this);
-			} else if(cname.equals(GAControllerN64.getName())){
+			} else if(cname.equals(GAControllerN64.getName().toLowerCase())){
 				controller = new GAControllerN64(this);
-			} else if(cname.equals(GAControllerNDS.getName())){
+			} else if(cname.equals(GAControllerNDS.getName().toLowerCase())){
 				controller = new GAControllerNDS(this);
-			} else if(cname.equals(GAControllerPadABXY.getName())) {
+			} else if(cname.equals(GAControllerPadABXY.getName().toLowerCase())) {
 				controller = new GAControllerPadABXY(this);
-			} else if(cname.equals(GAControllerPSP.getName())) {
+			} else if(cname.equals(GAControllerPSP.getName().toLowerCase())) {
 				controller = new GAControllerPSP(this);
 			} else {
 				controller = new GAControllerBasic(this);

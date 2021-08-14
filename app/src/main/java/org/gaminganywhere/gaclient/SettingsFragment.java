@@ -33,6 +33,10 @@ import android.preference.PreferenceManager;
 import android.text.InputType;
 import android.widget.Toast;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 public class SettingsFragment extends PreferenceFragment implements OnSharedPreferenceChangeListener {
 
 	private String current_profile = null;
@@ -145,33 +149,50 @@ public class SettingsFragment extends PreferenceFragment implements OnSharedPref
 		return true;
 	}
 
-	public boolean profileSave() {
+	public boolean profileSave(JSONObject settings) throws JSONException {
 		SharedPreferences spref = PreferenceManager.getDefaultSharedPreferences(context);
+
+		JSONArray settingObject = settings.getJSONArray("settings");
+//		JSONObject name = (JSONObject) settingObject.get(7);
+		JSONObject protocol = (JSONObject) settingObject.get(1);
+		JSONObject host = (JSONObject) settingObject.get(2);
+		JSONObject port = (JSONObject) settingObject.get(3);
+		JSONObject object = (JSONObject) settingObject.get(4);
+		JSONObject rtpovertcp = (JSONObject) settingObject.get(5);
+		JSONObject ctrlenable = (JSONObject) settingObject.get(8);
+		JSONObject ctrlprotocol = (JSONObject) settingObject.get(9);
+		JSONObject ctrlport = (JSONObject) settingObject.get(10);
+		JSONObject ctrlrelative = (JSONObject) settingObject.get(11);
+		JSONObject audio_channels = (JSONObject) settingObject.get(13);
+		JSONObject audio_samplerate = (JSONObject) settingObject.get(14);
+
 		HashMap<String,String> config = new HashMap<String,String>();
-		String key = spref.getString("pref_title", "").trim();
+
+		String key = "janakatest"; //settings.getString("profileName");
+//		JSONObject key = (JSONObject) profileObject.get(0);
 		//
 		if(key.equals("")) {
 			showToast("Profile name cannot be null");
 			return false;
 		}
-		if(spref.getString("pref_host", "").equals("")) {
+		if(host.equals("")) {
 			showToast("Server host cannot be null");
 			return false;
 		}
 		//
 		config.clear();
-		config.put("name", spref.getString("pref_title", ""));
-		config.put("protocol", spref.getString("pref_protocol", "rtsp"));
-		config.put("host", spref.getString("pref_host", ""));
-		config.put("port", spref.getString("pref_port", "8554"));
-		config.put("object", spref.getString("pref_object", "/desktop"));
-		config.put("rtpovertcp", spref.getBoolean("pref_rtpovertcp", false) ? "1" : "0");
-		config.put("ctrlenable", spref.getBoolean("pref_ctrlenable", true) ? "1" : "0");
-		config.put("ctrlprotocol", spref.getString("pref_ctrlprotocol", "udp"));
-		config.put("ctrlport", spref.getString("pref_ctrlport", "8555"));
-		config.put("ctrlrelative", spref.getBoolean("pref_ctrlrelative", false) ? "1" : "0");
-		config.put("audio_channels", spref.getString("pref_audio_channels", "2"));
-		config.put("audio_samplerate", spref.getString("pref_audio_samplerate", "44100"));
+		config.put("name", key);
+		config.put("protocol", protocol.optString("value"));
+		config.put("host", host.optString("value"));
+		config.put("port", port.optString("value"));
+		config.put("object", object.optString("value"));
+		config.put("rtpovertcp", rtpovertcp.optBoolean("value") ? "1": "0");
+		config.put("ctrlenable", ctrlenable.optBoolean("value") ? "1": "0");
+		config.put("ctrlprotocol", ctrlprotocol.optString("value"));
+		config.put("ctrlport", ctrlport.optString("value"));
+		config.put("ctrlrelative", ctrlrelative.optBoolean("value") ? "1": "0");
+		config.put("audio_channels", audio_channels.optString("value"));
+		config.put("audio_samplerate", audio_samplerate.optString("value"));
 		//
 		if(GAConfigHelper.profileSave(context, key, config, isUpdate) == false)
 			return false;

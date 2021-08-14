@@ -30,7 +30,7 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <string name="action_settings">Settings</string>
-    <string name="app_name">GAClient</string>
+    <string name="app_name">G3-Client</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="title_activity_player">PlayerActivity</string>
@@ -55,7 +55,7 @@
     <style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:windowBackground">@null</item>
-<!--        <item name="buttonBarStyle">@style/ButtonBar</item>-->
-<!--        <item name="buttonBarButtonStyle">@style/ButtonBarButton</item>-->
+        <!--        <item name="buttonBarStyle">@style/ButtonBar</item>-->
+        <!--        <item name="buttonBarButtonStyle">@style/ButtonBarButton</item>-->
     </style>
 </resources>

@@ -1,17 +1,17 @@
 {
   "abi": "ARMEABI_V7A",
-  "abiPlatformVersion": 16,
+  "abiPlatformVersion": 23,
   "buildSettings": {
     "environmentVariables": []
   },
-  "cxxBuildFolder": "/Users/amal/Projects/janaka/ga/app/.cxx/ndkBuild/debug/armeabi-v7a",
+  "cxxBuildFolder": "D:\\GAMING\\workingversion\\ga\\app\\.cxx\\ndkBuild\\debug\\armeabi-v7a",
   "info": {
     "abi": "ARMEABI_V7A",
     "bitness": 32,
     "deprecated": false,
     "default": true
   },
-  "originalCxxBuildFolder": "/Users/amal/Projects/janaka/ga/app/.cxx/ndkBuild/debug/armeabi-v7a",
+  "originalCxxBuildFolder": "D:\\GAMING\\workingversion\\ga\\app\\.cxx\\ndkBuild\\debug\\armeabi-v7a",
   "variant": {
     "buildSystemArgumentList": [],
     "buildTargetSet": [],
@@ -22,18 +22,20 @@
     "isDebuggableEnabled": true,
     "module": {
       "buildSystem": "NDK_BUILD",
-      "cmakeToolchainFile": "/Users/amal/Library/Android/sdk/ndk/16.1.4479499/build/cmake/android.toolchain.cmake",
-      "cxxFolder": "/Users/amal/Projects/janaka/ga/app/.cxx",
+      "cmakeToolchainFile": "D:\\GAMING\\android-ndk-r16b\\build\\cmake\\android.toolchain.cmake",
+      "cxxFolder": "D:\\GAMING\\workingversion\\ga\\app\\.cxx",
       "gradleModulePathName": ":app",
-      "intermediatesFolder": "/Users/amal/Projects/janaka/ga/app/build/intermediates",
-      "makeFile": "/Users/amal/Projects/janaka/ga/app/src/main/jni/Android.mk",
-      "moduleBuildFile": "/Users/amal/Projects/janaka/ga/app/build.gradle",
-      "moduleRootFolder": "/Users/amal/Projects/janaka/ga/app",
+      "intermediatesFolder": "D:\\GAMING\\workingversion\\ga\\app\\build\\intermediates",
+      "makeFile": "D:\\GAMING\\workingversion\\ga\\app\\src\\main\\jni\\Android.mk",
+      "moduleBuildFile": "D:\\GAMING\\workingversion\\ga\\app\\build.gradle",
+      "moduleRootFolder": "D:\\GAMING\\workingversion\\ga\\app",
       "ndkDefaultAbiList": [
         "ARMEABI_V7A",
-        "X86"
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
       ],
-      "ndkFolder": "/Users/amal/Library/Android/sdk/ndk/16.1.4479499",
+      "ndkFolder": "D:\\GAMING\\android-ndk-r16b",
       "ndkMetaAbiList": [
         {
           "abi": "ARMEABI",
@@ -81,65 +83,68 @@
       "ndkSupportedAbiList": [
         "ARMEABI",
         "ARMEABI_V7A",
+        "ARM64_V8A",
         "MIPS",
-        "X86"
+        "MIPS64",
+        "X86",
+        "X86_64"
       ],
       "ndkDefaultStl": "SYSTEM",
       "ndkVersion": "16.1.4479499",
       "project": {
-        "compilerSettingsCacheFolder": "/Users/amal/Projects/janaka/ga/.cxx",
-        "cxxFolder": "/Users/amal/Projects/janaka/ga/.cxx",
+        "compilerSettingsCacheFolder": "D:\\GAMING\\workingversion\\ga\\.cxx",
+        "cxxFolder": "D:\\GAMING\\workingversion\\ga\\.cxx",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isNativeCompilerSettingsCacheEnabled": false,
-        "rootBuildGradleFolder": "/Users/amal/Projects/janaka/ga",
-        "sdkFolder": "/Users/amal/Library/Android/sdk",
+        "rootBuildGradleFolder": "D:\\GAMING\\workingversion\\ga",
+        "sdkFolder": "C:\\Users\\janaka_w\\AppData\\Local\\Android\\Sdk",
         "isPrefabEnabled": false
       },
       "splitsAbiFilterSet": [],
       "stlSharedObjectMap": {
         "GNUSTL_SHARED": {
-          "ARMEABI": "/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_shared.so",
-          "ARMEABI_V7A": "/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_shared.so",
-          "ARM64_V8A": "/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/libgnustl_shared.so",
-          "MIPS": "/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips/libgnustl_shared.so",
-          "MIPS64": "/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/libgnustl_shared.so",
-          "X86": "/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/libgnustl_shared.so",
-          "X86_64": "/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/libgnustl_shared.so"
+          "ARMEABI": "D:\\GAMING\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi\\libgnustl_shared.so",
+          "ARMEABI_V7A": "D:\\GAMING\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\libgnustl_shared.so",
+          "ARM64_V8A": "D:\\GAMING\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\libgnustl_shared.so",
+          "MIPS": "D:\\GAMING\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips\\libgnustl_shared.so",
+          "MIPS64": "D:\\GAMING\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\libgnustl_shared.so",
+          "X86": "D:\\GAMING\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\libgnustl_shared.so",
+          "X86_64": "D:\\GAMING\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\libgnustl_shared.so"
         },
         "GNUSTL_STATIC": {},
         "LIBCXX_SHARED": {
-          "ARMEABI": "/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/libs/armeabi/libc++_shared.so",
-          "ARMEABI_V7A": "/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++_shared.so",
-          "ARM64_V8A": "/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/libc++_shared.so",
-          "MIPS": "/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/libs/mips/libc++_shared.so",
-          "MIPS64": "/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/libs/mips64/libc++_shared.so",
-          "X86": "/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/libs/x86/libc++_shared.so",
-          "X86_64": "/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/llvm-libc++/libs/x86_64/libc++_shared.so"
+          "ARMEABI": "D:\\GAMING\\android-ndk-r16b\\sources\\cxx-stl\\llvm-libc++\\libs\\armeabi\\libc++_shared.so",
+          "ARMEABI_V7A": "D:\\GAMING\\android-ndk-r16b\\sources\\cxx-stl\\llvm-libc++\\libs\\armeabi-v7a\\libc++_shared.so",
+          "ARM64_V8A": "D:\\GAMING\\android-ndk-r16b\\sources\\cxx-stl\\llvm-libc++\\libs\\arm64-v8a\\libc++_shared.so",
+          "MIPS": "D:\\GAMING\\android-ndk-r16b\\sources\\cxx-stl\\llvm-libc++\\libs\\mips\\libc++_shared.so",
+          "MIPS64": "D:\\GAMING\\android-ndk-r16b\\sources\\cxx-stl\\llvm-libc++\\libs\\mips64\\libc++_shared.so",
+          "X86": "D:\\GAMING\\android-ndk-r16b\\sources\\cxx-stl\\llvm-libc++\\libs\\x86\\libc++_shared.so",
+          "X86_64": "D:\\GAMING\\android-ndk-r16b\\sources\\cxx-stl\\llvm-libc++\\libs\\x86_64\\libc++_shared.so"
         },
         "LIBCXX_STATIC": {},
         "NONE": {},
         "STLPORT_SHARED": {
-          "ARMEABI": "/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/stlport/libs/armeabi/libstlport_shared.so",
-          "ARMEABI_V7A": "/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/stlport/libs/armeabi-v7a/libstlport_shared.so",
-          "ARM64_V8A": "/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/stlport/libs/arm64-v8a/libstlport_shared.so",
-          "MIPS": "/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/stlport/libs/mips/libstlport_shared.so",
-          "MIPS64": "/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/stlport/libs/mips64/libstlport_shared.so",
-          "X86": "/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/stlport/libs/x86/libstlport_shared.so",
-          "X86_64": "/Users/amal/Library/Android/sdk/ndk/16.1.4479499/sources/cxx-stl/stlport/libs/x86_64/libstlport_shared.so"
+          "ARMEABI": "D:\\GAMING\\android-ndk-r16b\\sources\\cxx-stl\\stlport\\libs\\armeabi\\libstlport_shared.so",
+          "ARMEABI_V7A": "D:\\GAMING\\android-ndk-r16b\\sources\\cxx-stl\\stlport\\libs\\armeabi-v7a\\libstlport_shared.so",
+          "ARM64_V8A": "D:\\GAMING\\android-ndk-r16b\\sources\\cxx-stl\\stlport\\libs\\arm64-v8a\\libstlport_shared.so",
+          "MIPS": "D:\\GAMING\\android-ndk-r16b\\sources\\cxx-stl\\stlport\\libs\\mips\\libstlport_shared.so",
+          "MIPS64": "D:\\GAMING\\android-ndk-r16b\\sources\\cxx-stl\\stlport\\libs\\mips64\\libstlport_shared.so",
+          "X86": "D:\\GAMING\\android-ndk-r16b\\sources\\cxx-stl\\stlport\\libs\\x86\\libstlport_shared.so",
+          "X86_64": "D:\\GAMING\\android-ndk-r16b\\sources\\cxx-stl\\stlport\\libs\\x86_64\\libstlport_shared.so"
         },
         "STLPORT_STATIC": {},
         "SYSTEM": {}
       }
     },
-    "objFolder": "/Users/amal/Projects/janaka/ga/app/build/intermediates/ndkBuild/debug/obj/local",
+    "objFolder": "D:\\GAMING\\workingversion\\ga\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local",
     "variantName": "debug",
     "validAbiList": [
       "ARMEABI_V7A",
       "X86"
     ],
-    "prefabDirectory": "/Users/amal/Projects/janaka/ga/app/.cxx/ndkBuild/debug/prefab",
+    "prefabDirectory": "D:\\GAMING\\workingversion\\ga\\app\\.cxx\\ndkBuild\\debug\\prefab",
     "prefabPackageDirectoryList": []
   },
-  "prefabFolder": "/Users/amal/Projects/janaka/ga/app/.cxx/ndkBuild/debug/prefab/armeabi-v7a"
+  "prefabFolder": "D:\\GAMING\\workingversion\\ga\\app\\.cxx\\ndkBuild\\debug\\prefab\\armeabi-v7a"
 }

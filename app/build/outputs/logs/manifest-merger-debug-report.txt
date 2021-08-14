@@ -1,85 +1,91 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:2:1-37:12
+ADDED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:2:1-40:12
 	package
-		ADDED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:3:5-42
-		INJECTED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml
+		ADDED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:3:5-42
+		INJECTED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml
+		INJECTED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:5:5-30
-		INJECTED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml
+		ADDED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml
+		INJECTED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:4:5-28
-		INJECTED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml
+		ADDED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml
+		INJECTED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml
 uses-sdk
-ADDED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:7:5-9:41
-INJECTED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:7:5-9:41
-INJECTED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:7:5-9:41
-INJECTED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:7:5-9:41
-INJECTED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:7:5-9:41
+ADDED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:8:5-10:41
+INJECTED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:8:5-10:41
+INJECTED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:8:5-10:41
+INJECTED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:8:5-10:41
+INJECTED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:8:5-10:41
 	android:targetSdkVersion
-		ADDED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:9:9-38
-		INJECTED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml
+		ADDED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:10:9-38
+		INJECTED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml
+		INJECTED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:8:9-35
-		INJECTED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml
+		ADDED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:9:9-35
+		INJECTED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml
+		INJECTED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:10:5-66
+ADDED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:11:5-66
 	android:name
-		ADDED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:10:22-64
+		ADDED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:11:22-64
 uses-permission#android.permission.WAKE_LOCK
-ADDED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:11:5-67
+ADDED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:12:5-67
 	android:name
-		ADDED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:11:22-65
+		ADDED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:12:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:13:5-78
+	android:name
+		ADDED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:13:22-76
 application
-ADDED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:13:5-35:19
+ADDED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:15:5-38:19
 	android:label
-		ADDED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:16:9-41
+		ADDED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:18:9-41
+	android:hardwareAccelerated
+		ADDED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:20:9-43
 	android:icon
-		ADDED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:15:9-45
+		ADDED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:17:9-45
 	android:allowBackup
-		ADDED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:14:9-35
+		ADDED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:16:9-35
 	android:theme
-		ADDED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:17:9-40
+		ADDED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:19:9-40
 activity#org.gaminganywhere.gaclient.MainActivity
-ADDED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:18:9-26:20
+ADDED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:21:9-29:20
 	android:label
-		ADDED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:20:13-45
+		ADDED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:23:13-45
 	android:name
-		ADDED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:19:13-68
+		ADDED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:22:13-68
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:21:13-25:29
+ADDED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:24:13-28:29
 action#android.intent.action.MAIN
-ADDED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:22:17-69
+ADDED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:22:25-66
+		ADDED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:24:17-77
+ADDED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:24:27-74
+		ADDED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:27:27-74
 activity#org.gaminganywhere.gaclient.SettingsActivity
-ADDED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:27:9-28:20
+ADDED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:30:9-31:20
 	android:name
-		ADDED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:27:19-78
+		ADDED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:30:19-78
 activity#org.gaminganywhere.gaclient.PlayerActivity
-ADDED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:29:9-34:20
+ADDED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:32:9-37:20
 	android:label
-		ADDED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:32:13-58
+		ADDED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:35:13-58
 	android:configChanges
-		ADDED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:31:13-74
+		ADDED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:34:13-74
 	android:theme
-		ADDED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:33:13-51
+		ADDED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:36:13-51
 	android:name
-		ADDED from /Users/amal/Projects/janaka/ga/app/src/main/AndroidManifest.xml:30:13-70
+		ADDED from D:\GAMING\workingversion\ga\app\src\main\AndroidManifest.xml:33:13-70

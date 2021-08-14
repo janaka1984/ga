@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/amal/Projects/janaka/ga/app/build/intermediates/res/merged/debug/values-v14_values-v14.arsc.flat",
+            "outputFile": "D:\\GAMING\\workingversion\\ga\\app\\build\\intermediates\\res\\merged\\debug\\values-v30_values-v30.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/amal/Projects/janaka/ga/app/src/main/res/values-v14/styles.xml",
+                    "source": "D:\\GAMING\\workingversion\\ga\\app\\src\\main\\res\\values-v30\\styles.xml",
                     "from": {
                         "startLines": "7",
                         "startColumns": "4",
@@ -25,32 +25,58 @@
             ]
         },
         {
-            "outputFile": "/Users/amal/Projects/janaka/ga/app/build/intermediates/res/merged/debug/values-sw720dp-land-v13_values-sw720dp-land-v13.arsc.flat",
+            "outputFile": "D:\\GAMING\\workingversion\\ga\\app\\build\\intermediates\\res\\merged\\debug\\values-v14_values-v14.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/amal/Projects/janaka/ga/app/src/main/res/values-sw720dp-land/dimens.xml",
+                    "source": "D:\\GAMING\\workingversion\\ga\\app\\src\\main\\res\\values-v14\\styles.xml",
                     "from": {
-                        "startLines": "6",
+                        "startLines": "7",
                         "startColumns": "4",
-                        "startOffsets": "200",
-                        "endColumns": "58",
-                        "endOffsets": "254"
+                        "startOffsets": "220",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "366"
                     },
                     "to": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
-                        "endColumns": "58",
-                        "endOffsets": "109"
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "201"
                     }
                 }
             ]
         },
         {
-            "outputFile": "/Users/amal/Projects/janaka/ga/app/build/intermediates/res/merged/debug/values_values.arsc.flat",
+            "outputFile": "D:\\GAMING\\workingversion\\ga\\app\\build\\intermediates\\res\\merged\\debug\\values-v11_values-v11.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/amal/Projects/janaka/ga/app/src/main/res/values/colors.xml",
+                    "source": "D:\\GAMING\\workingversion\\ga\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "7,19,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "216,807,354",
+                        "endLines": "9,21,17",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "348,966,801"
+                    },
+                    "to": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,192,356",
+                        "endLines": "4,7,14",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "187,351,803"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\GAMING\\workingversion\\ga\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\GAMING\\workingversion\\ga\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -67,45 +93,45 @@
                     }
                 },
                 {
-                    "source": "/Users/amal/Projects/janaka/ga/app/src/main/res/values/strings.xml",
+                    "source": "D:\\GAMING\\workingversion\\ga\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
-                        "startLines": "28,23,17,13,6,9,4,3,34,35,33",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "775,631,469,357,156,242,102,56,948,1002,883",
-                        "endLines": "31,27,22,16,8,12,4,3,34,35,33",
-                        "endColumns": "19,19,19,19,19,19,52,45,53,56,64",
-                        "endOffsets": "877,770,626,464,237,352,150,97,997,1054,943"
-                    },
-                    "to": {
-                        "startLines": "2,6,11,17,21,24,31,32,33,34,35",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,162,306,468,580,666,945,998,1044,1098,1155",
-                        "endLines": "5,10,16,20,23,27,31,32,33,34,35",
-                        "endColumns": "19,19,19,19,19,19,52,45,53,56,64",
-                        "endOffsets": "157,301,463,575,661,776,993,1039,1093,1150,1215"
-                    }
-                },
-                {
-                    "source": "/Users/amal/Projects/janaka/ga/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "7,16,27,35,20",
+                        "startLines": "7,15,26,34,19",
                         "startColumns": "4,4,4,4,4",
-                        "startOffsets": "225,548,1060,1389,709",
-                        "endLines": "13,18,33,35,25",
+                        "startOffsets": "225,547,1075,1404,708",
+                        "endLines": "13,17,32,34,24",
                         "endColumns": "12,12,12,36,12",
-                        "endOffsets": "510,703,1383,1421,1054"
+                        "endOffsets": "510,702,1398,1436,1069"
                     },
                     "to": {
                         "startLines": "36,43,46,53,54",
                         "startColumns": "4,4,4,4,4",
-                        "startOffsets": "1220,1510,1670,1998,2034",
+                        "startOffsets": "1221,1511,1671,1999,2035",
                         "endLines": "42,45,52,53,59",
                         "endColumns": "12,12,12,35,12",
-                        "endOffsets": "1505,1665,1993,2029,2379"
+                        "endOffsets": "1506,1666,1994,2030,2396"
                     }
                 },
                 {
-                    "source": "/Users/amal/Projects/janaka/ga/app/src/main/res/values/dimens.xml",
+                    "source": "D:\\GAMING\\workingversion\\ga\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "28,23,17,13,6,9,4,3,34,35,33",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "776,632,470,358,157,243,103,56,949,1003,884",
+                        "endLines": "31,27,22,16,8,12,4,3,34,35,33",
+                        "endColumns": "19,19,19,19,19,19,52,46,53,56,64",
+                        "endOffsets": "878,771,627,465,238,353,151,98,998,1055,944"
+                    },
+                    "to": {
+                        "startLines": "2,6,11,17,21,24,31,32,33,34,35",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,162,306,468,580,666,945,998,1045,1099,1156",
+                        "endLines": "5,10,16,20,23,27,31,32,33,34,35",
+                        "endColumns": "19,19,19,19,19,19,52,46,53,56,64",
+                        "endOffsets": "157,301,463,575,661,776,993,1040,1094,1151,1216"
+                    }
+                },
+                {
+                    "source": "D:\\GAMING\\workingversion\\ga\\app\\src\\main\\res\\values\\dimens.xml",
                     "from": {
                         "startLines": "3,4",
                         "startColumns": "4,4",
@@ -124,25 +150,23 @@
             ]
         },
         {
-            "outputFile": "/Users/amal/Projects/janaka/ga/app/build/intermediates/res/merged/debug/values-v11_values-v11.arsc.flat",
+            "outputFile": "D:\\GAMING\\workingversion\\ga\\app\\build\\intermediates\\res\\merged\\debug\\values-sw720dp-land-v13_values-sw720dp-land-v13.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/amal/Projects/janaka/ga/app/src/main/res/values-v11/styles.xml",
+                    "source": "D:\\GAMING\\workingversion\\ga\\app\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
                     "from": {
-                        "startLines": "7,19,11",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "216,807,354",
-                        "endLines": "9,21,17",
-                        "endColumns": "12,12,12",
-                        "endOffsets": "348,966,801"
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "200",
+                        "endColumns": "58",
+                        "endOffsets": "254"
                     },
                     "to": {
-                        "startLines": "2,5,8",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,192,356",
-                        "endLines": "4,7,14",
-                        "endColumns": "12,12,12",
-                        "endOffsets": "187,351,803"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "58",
+                        "endOffsets": "109"
                     }
                 }
             ]

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameCub3</title>
+    <link rel="stylesheet" href="css/style.css">
+   
+</head>
+<body>
+
+    <div id="root">
+        <div id="sidebar-left" class="">
+            <div class="btn burger" data-action="nav-toggle" onpointerdown="pointerDownHandler(this)"></div>
+            <div class="btn settings" data-action="nav-settings" onpointerdown="pointerDownHandler(this)"></div>
+        </div>
+        <div id="content" class="hidden">
+            <div class="games-quickstart">
+                <div class="game-cover-container" data-action="game-start" data-game-id="control" onpointerdown="pointerDownHandler(this)">
+                    <div class="game-cover-border"></div>
+                    <div class="game-cover-image control"></div>
+                </div>
+                <div class="game-cover-container" data-action="game-start" data-game-id="wrc9" onpointerdown="pointerDownHandler(this)">
+                    <div class="game-cover-border"></div>
+                    <div class="game-cover-image wrc9"></div>
+                </div>
+                <div class="game-cover-container" data-action="game-start" data-game-id="wrc8" onpointerdown="pointerDownHandler(this)">
+                    <div class="game-cover-border"></div>
+                    <div class="game-cover-image wrc8"></div>
+                </div>
+            </div>   
+        </div>
+
+        <div id="settings">
+        <div class="content">
+
+            <div class="headline">
+                <h1>Settings</h1>
+            </div>
+
+
+            <!-- <div class="setting-container">
+                <div class="info-container">
+                    <label for="profile">Profile</label><br>
+                    <p class="description">Some descptional text</p>
+                </div>
+                <div class="dropdown-container">
+                    <select name="profile" id="profile">
+                        <option value="default">Default</option>
+                      </select><br>
+                </div>
+            </div>
+
+            <div class="setting-container">
+                <input type="button" id="new-profile" value="New Profile" onclick="">
+            </div> -->
+            
+            <div class="setting-container">
+            <div class="content">
+                <div class="info-container">
+                    <label for="audio-decoder-android">Android Audio Decoder</label>
+                    <p class="description">Use Android's built-in audio decoder</p>
+                </div>
+                <div class="toggle-container">
+                    <input type="checkbox" id="audio-decoder-android" name="audio-decoder-android" value="1" class="toggle" 
+                           onpointerdown="pointerDownHandler(this)"
+                           data-action="audio-decoder"
+                           data-value="${this.value}">
+                </div>
+            </div>
+            </div>
+
+            <div class="setting-container">
+            <div class="content">
+                <div class="info-container">
+                    <label for="video-decoder-android">Android Video Decoder</label>
+                    <p class="description">Use Android's built-in video decoder</p>
+                </div>
+                <div class="toggle-container">
+                    <input type="checkbox" id="video-decoder-android" name="video-decoder-android" value="1" class="toggle"
+					onpointerdown="pointerDownHandler(this)"
+                    data-action="video-decoder"
+                    data-value="${this.value}">
+                </div>
+            </div>
+            </div>
+
+            <div class="setting-container">
+            <div class="content">
+                <div class="info-container">
+                    <label for="portrait-mode">Portrait Mode</label>
+                    <p class="description">Force App to run in portrait mode.</p>
+                </div>
+                <div class="toggle-container">
+                    <input type="checkbox" id="portrait-mode" name="portrait-mode" value="1" class="toggle"
+					onpointerdown="pointerDownHandler(this)"
+                    data-action="portrait-mode"
+                    data-value="${this.value}">
+                </div>
+            </div>
+            </div>
+
+            <div class="setting-container">
+            <div class="content">
+                <div class="info-container">
+                    <label for="drop-late-video-frame">Drop late video frame</label>
+                    <p class="description">Put some description here</p>
+                </div>
+                <div class="toggle-container">
+                    <input type="checkbox" id="drop-late-video-frame" name="drop-late-video-frame" value="disabled" class="toggle"
+					onpointerdown="pointerDownHandler(this)"
+                    data-action="drop-late-video-frame"
+                    data-value="${this.value}">
+                </div>
+            </div>
+            </div>
+
+            <div class="setting-container">
+            <div class="content">
+                <input type="range" id="drop-late-video-frame-value" name="drop-late-video-frame-value" min="0" max="1500" class="slider"
+				onpointerdown="pointerDownHandler(this)"
+				data-action="drop-late-video-frame-value"
+				data-value="${this.value}">
+            </div>
+            </div>
+
+            <div class="setting-container">
+            <div class="content">
+                <div class="info-container">
+                    <label for="watchdog-timeout">Watching timeout</label>
+                    <p class="description">Drop frames, when they are not delivered in time</p>
+                </div>
+                <div class="toggle-container">
+                    <input type="checkbox" id="watchdog-timeout" name="watchdog-timeout" value="disabled" class="toggle"
+					onpointerdown="pointerDownHandler(this)"
+					data-action="watchdog-timeout"
+					data-value="${this.value}">
+                </div>
+            </div>
+            </div>
+
+            <div class="setting-container">
+            <div class="content">
+                <input type="range" id="watchdog-timeout-value" name="watchdog-timeout-value" min="0" max="60" class="slider"
+				onpointerdown="pointerDownHandler(this)"
+				data-action="watchdog-timeout-value"
+				data-value="${this.value}">
+            </div>
+            </div>
+
+            <div class="setting-container">
+            <div class="content">
+                <label for="controller-layout">Controller Layout</label><br>
+                <select name="controller-layout" id="controller-layout"
+				onchange="pointerDownHandler(this)"
+				data-action="controller-layout"
+				data-value="${this.value}">
+                  <option value="empty">Empty (no controls)</option>
+                  <option value="basic">Basic (mouse buttons)</option>
+                  <option value="dualpad">DualPad (Arrow Keys and mouse buttons)</option>
+                  <option value="limbo">Limbo (Arrow keys and CTRL/ENTER)</option>
+                  <option value="n64">N64 (emulated N64 controller)</option>
+                  <option value="nds">NDS (emulated NDS controller)</option>
+                  <option value="psp">PSP (emulated PSP controller)</option>
+                </select>
+
+                <div>
+                    <input type="button" id="connect" value="Connect">
+                </div>
+            </div>
+            </div>
+        
+        </div>
+        </div>
+    </div>
+    
+
+    <script>
+
+
+
+        // GAME START USING CUSTOM DATA
+        // ACTION: start-game
+        // gameId: gametitle (or a specified ID based on the backend)
+		var selectedSettings = {}
+        function pointerDownHandler(e) {	
+		    
+			switch (e.dataset.action) {
+			  case 'game-start':
+				console.log(e.dataset.gameId);
+				break;
+			  case 'nav-settings':
+				toggleClass('content', 'hidden');
+                toggleClass('settings', 'hidden');
+				break;
+			  case 'audio-decoder':
+				console.log(e.dataset);
+                console.log("Value: ", e.value);
+				console.log("audio-decoder Is Checked: ", !e.checked);
+				selectedSettings['audio-decoder'] = !e.checked
+				break;
+			  case 'video-decoder':
+				console.log("Value: ", e.value);
+				console.log("video-decoder Is Checked: ", !e.checked);
+				selectedSettings['video-decoder'] = !e.checked
+				break;
+			  case 'portrait-mode':
+				console.log("Value: ", e.value);
+				console.log("pointer Is Checked: ", !e.checked);
+				selectedSettings['portrait-mode'] = !e.checked
+				break;
+			  case 'drop-late-video-frame':
+				console.log("Value: ", e.value);
+				console.log("drop-late-video-frame Is Checked: ", !e.checked);
+				selectedSettings['drop-late-video-frame'] = !e.checked
+				break;
+			  case 'drop-late-video-frame-value':
+				console.log("drop-late-video-frame-value Value: ", e.value);
+				selectedSettings['drop-late-video-frame-value'] = e.value
+				break;
+			  case 'watchdog-timeout':
+				console.log("Value: ", e.value);
+				console.log("watchdog-timeout: ", !e.checked);
+				selectedSettings['watchdog-timeout'] = !e.checked
+				break;
+			  case 'watchdog-timeout-value':
+				console.log("watchdog-timeout Value: ", e.value);
+				selectedSettings['watchdog-timeout-value'] = e.value
+				break;
+			  case 'controller-layout':
+				console.log("controller-layout Value: ", e.value);
+				selectedSettings['controller-layout'] = e.value
+				break;
+			}		
+        }
+
+        function toggleClass(elementID, className) {
+            var element = document.getElementById(elementID);
+            element.classList.toggle(className);
+        } 
+		
+<!--		function onConnect() {-->
+<!--		  console.log("Connect  : ", selectedSettings);-->
+<!--		  -->
+<!--		}-->
+
+        const clickEvent = document.querySelector('#connect');
+		clickEvent.addEventListener('click', event => {
+            //console.log(JSON.stringify(selectedSettings))
+            Android.jsCallback(JSON.stringify(selectedSettings));
+
+        });
+
+    </script>
+
+</body>
+</html>

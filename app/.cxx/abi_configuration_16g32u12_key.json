@@ -1,0 +1,20 @@
+{
+  "ndkHandlerSupportedAbis": [
+    "ARMEABI",
+    "ARMEABI_V7A",
+    "MIPS",
+    "X86"
+  ],
+  "ndkHandlerDefaultAbis": [
+    "ARMEABI_V7A",
+    "X86"
+  ],
+  "externalNativeBuildAbiFilters": [],
+  "ndkConfigAbiFilters": [
+    "armeabi-v7a",
+    "x86"
+  ],
+  "splitsFilterAbis": [],
+  "ideBuildOnlyTargetAbi": true,
+  "ideBuildTargetAbi": "x86_64,x86"
+}

@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+body {
+    background: #141414;
+    font-size: $BU;
+    letter-spacing: 2;
+    font-family: 'TeleNeoRegular', Arial, Helvetica, sans-serif !important;
+    color: $white;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 140%;
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+    background: #141414;
+}
+
+#sidebar-left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
+    width: 8rem;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.15);
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    .btn.burger {
+        width: 4rem;
+        height: 4rem;
+        margin: 2rem 0 0 0;
+        /* background-color: #e20074; */
+        background-image: url('../images/icons/menu_white_24dp.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        cursor: pointer;
+    }
+
+    .btn.dash {
+        width: 4rem;
+        height: 4rem;
+        margin: 0 0 2rem 0;
+        /* background-color: #e20074; */
+        background-image: url('../images/icons/sports_esports_white_24dp.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        cursor: pointer;
+    }
+    
+    .btn.settings {
+        width: 4rem;
+        height: 4rem;
+        margin: 0 0 2rem 0;
+        /* background-color: #e20074; */
+        background-image: url('../images/icons/settings_white_24dp.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        cursor: pointer;
+    }
+
+    
+}
+
+#dash {
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0 8rem;
+
+    .games-quickstart {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: wrap;
+    
+        padding: 24px;
+    }
+    
+    .game-cover-container {
+        position: relative;
+        width: calc(240px + 24px + 6px);
+        height: calc(315px + 24px + 6px);
+    
+        transition: transform 200ms ease-in-out;
+    }
+    
+    .game-cover-container:hover {
+        transform: scale(1.035);
+    }
+    
+    .game-cover-border {
+        position: absolute;
+        z-index: 1;
+        top: 9px;
+        left: 9px;
+        width: calc(240px + 12px);
+        height: calc(315px + 12px);
+        border-radius: 15px;
+        transition: opacity 200ms ease-in-out;
+        border: 3px solid #e20074;
+        opacity: 0;
+    }
+    
+    .game-cover-container:hover .game-cover-border {
+        opacity: 1;
+    }
+    
+    .game-cover-image {
+        position: absolute;
+        z-index: 0;
+        top: calc(12px + 3px);
+        left: calc(12px + 3px);
+        
+        width: calc(100% - 12px);
+        height: calc(100% - 12px);
+
+        max-width: 240px;
+        max-height: 315px;
+        border-radius: 9px;
+        box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.5);
+    
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+        transition: box-shadow 200ms ease-in-out;
+    }
+    
+    .game-cover-container:hover .game-cover-image {
+        box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.75);
+    }
+    
+    .wrc8 {
+        background-image: url('../images/game-meta-data/wrc-8-cover-portrait.jpg');
+    }
+    
+    .wrc9 {
+        background-image: url('../images/game-meta-data/wrc-9-cover-portrait.jpg');
+    }
+    
+    .control {
+        background-image: url('../images/game-meta-data/control-cover-portrait.jpg');
+    }
+}
+
+#settings {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0 8rem;
+}
+
+
+
+
+@media screen and (max-width: 400px) {
+    
+}
